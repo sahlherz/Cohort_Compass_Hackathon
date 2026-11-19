@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/good-to-know/1.0.0",
+  "title": "GoodToKnow",
+  "description": "Short, tagged tip about a course, instructor, program or campus. Confirmations raise confidence; stale tips decay.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "course",
+        "instructor",
+        "program",
+        "campus"
+      ]
+    },
+    "scope_ref": {
+      "type": "string",
+      "description": "course_id, instructor_id, program_id or campus_id the tip is about"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "logistics",
+        "workload",
+        "grading",
+        "recruiting",
+        "community",
+        "resource",
+        "hidden_gem",
+        "warning"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 280
+    },
+    "example": {
+      "type": "string",
+      "maxLength": 400,
+      "description": "Required when category = warning"
+    },
+    "applies_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confirmations": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100000
+    },
+    "disputes": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100000
+    },
+    "last_confirmed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Derived: confirmations vs disputes with time decay"
+    },
+    "source_review_id": {
+      "type": "string"
+    },
+    "source_post_id": {
+      "type": "string"
+    },
+    "moderation": {
+      "$ref": "#/$defs/moderation"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "scope",
+    "scope_ref",
+    "category",
+    "text",
+    "confirmations",
+    "last_confirmed_at"
+  ],
+  "$defs": {
+    "moderation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "needs_edit"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "category": {
+            "const": "warning"
+          }
+        },
+        "required": [
+          "category"
+        ]
+      },
+      "then": {
+        "required": [
+          "example"
+        ]
+      }
+    }
+  ]
+}

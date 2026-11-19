@@ -1,0 +1,281 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/profile/1.0.0",
+  "title": "Profile",
+  "description": "User profile from resume + confirmation. Per-field visibility and consent. Contact details stripped by default.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "display_name": {
+      "type": "string",
+      "maxLength": 60,
+      "description": "Pseudonym or first name + initial"
+    },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "prospective",
+        "enrolled",
+        "heading_out",
+        "alumni"
+      ],
+      "description": "Lifecycle stage (GPP: while enrolled → heading out → after graduation)"
+    },
+    "grad_year": {
+      "type": "integer",
+      "minimum": 1950,
+      "maximum": 2100
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "institution"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "institution": {
+            "type": "string"
+          },
+          "degree": {
+            "type": "string"
+          },
+          "field": {
+            "type": "string"
+          },
+          "start_year": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2100
+          },
+          "end_year": {
+            "type": "integer",
+            "minimum": 1950,
+            "maximum": 2100
+          }
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "org_type": {
+            "type": "string"
+          },
+          "industry": {
+            "type": "string"
+          },
+          "function": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 240
+            }
+          },
+          "outcome_logged": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 60
+      }
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 60
+      }
+    },
+    "career_targets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 80
+      }
+    },
+    "courses_taken": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "course_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "course_id": {
+            "type": "string"
+          },
+          "term": {
+            "type": "string"
+          },
+          "reviewed": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "visibility": {
+      "type": "object",
+      "description": "Per-field visibility",
+      "additionalProperties": {
+        "type": "string",
+        "enum": [
+          "private",
+          "cohort",
+          "campus_aggregate_only",
+          "public"
+        ]
+      }
+    },
+    "consent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "share_reviews",
+        "share_outcomes_aggregate",
+        "contact_by_peers"
+      ],
+      "properties": {
+        "share_reviews": {
+          "type": "boolean"
+        },
+        "share_outcomes_aggregate": {
+          "type": "boolean"
+        },
+        "contact_by_peers": {
+          "type": "boolean"
+        },
+        "named_in_outcomes": {
+          "type": "boolean"
+        },
+        "resume_retention_days": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 365
+        }
+      }
+    },
+    "draft": {
+      "type": "boolean",
+      "description": "TRUE for a ProfileDraft awaiting user confirmation"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "display_name",
+    "stage",
+    "consent"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/career-passport/1.0.0",
+  "title": "CareerPassport",
+  "description": "Portable, consented bundle of profile + outcomes for export/import between MCP hosts and servers.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "passport_version",
+    "exported_at",
+    "issuer",
+    "consent",
+    "profile",
+    "outcomes"
+  ],
+  "properties": {
+    "passport_version": {
+      "const": "1.0.0"
+    },
+    "exported_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "issuer": {
+      "type": "object",
+      "required": [
+        "campus_id",
+        "system"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "campus_id": {
+          "type": "string"
+        },
+        "program_id": {
+          "type": "string"
+        },
+        "system": {
+          "type": "string"
+        }
+      }
+    },
+    "consent": {
+      "type": "object",
+      "required": [
+        "scopes",
+        "granted_at"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "scopes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "profile",
+              "outcomes",
+              "reviews_authored"
+            ]
+          }
+        },
+        "granted_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "expires_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "profile": {
+      "$ref": "https://schemas.cohortcompass.app/profile/1.0.0"
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "$ref": "https://schemas.cohortcompass.app/career-outcome/1.0.0"
+      }
+    },
+    "reviews_authored": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs only; review content stays with the campus"
+    },
+    "checksum_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    }
+  }
+}

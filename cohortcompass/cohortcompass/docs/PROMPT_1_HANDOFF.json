@@ -1,0 +1,38 @@
+{
+  "contract_version": "1.0.0",
+  "product_summary": "CohortCompass: an AI peer advisor for Tippie GPP students and alumni. AI interviews turn knowledge into validated, evidence-backed records (CourseReview, GoodToKnow, CareerOutcome) that power course pages, matched real events, path insights (min n=5) and cited Ask the Cohort Q&A. Exposed through a transport-agnostic core, a web demo and an MCP server.",
+  "schemas": [
+    {"name": "course-review", "$id": "https://schemas.cohortcompass.app/course-review/1.0.0", "version": "1.0.0"},
+    {"name": "good-to-know", "$id": "https://schemas.cohortcompass.app/good-to-know/1.0.0", "version": "1.0.0"},
+    {"name": "post", "$id": "https://schemas.cohortcompass.app/post/1.0.0", "version": "1.0.0"},
+    {"name": "event-resource", "$id": "https://schemas.cohortcompass.app/event-resource/1.0.0", "version": "1.0.0"},
+    {"name": "profile", "$id": "https://schemas.cohortcompass.app/profile/1.0.0", "version": "1.0.0"},
+    {"name": "career-outcome", "$id": "https://schemas.cohortcompass.app/career-outcome/1.0.0", "version": "1.0.0"},
+    {"name": "path-insight", "$id": "https://schemas.cohortcompass.app/path-insight/1.0.0", "version": "1.0.0"},
+    {"name": "course", "$id": "https://schemas.cohortcompass.app/course/1.0.0", "version": "1.0.0"},
+    {"name": "career-passport", "$id": "https://schemas.cohortcompass.app/career-passport/1.0.0", "version": "1.0.0"},
+    {"name": "error", "$id": "https://schemas.cohortcompass.app/error/1.0.0", "version": "1.0.0"}
+  ],
+  "mcp_surface": {
+    "sdk": "@modelcontextprotocol/sdk 1.32.2 (protocol 2025-11-25; current spec 2026-07-28 is backward compatible with initialization-based versions)",
+    "transports": ["stdio", "streamable-http (stateless) via --http"],
+    "tools": ["search_courses", "get_course_insights", "parse_resume", "upsert_profile", "validate_review", "save_review", "create_post", "recommend_events_resources", "log_career_outcome", "get_path_insights", "ask_cohort", "export_profile", "import_profile"],
+    "extension_tools": ["x_interview_start", "x_interview_answer", "x_moderation_queue", "x_moderate", "x_admin_overview"],
+    "resources": ["schema://{name}/{version}", "campus://{campus_id}/program/{program_id}", "course://{campus_id}/{course_id}", "insights://path/{target}"],
+    "prompts": ["review_interview", "outcome_interview", "profile_builder"],
+    "elicitation": "save_review and log_career_outcome elicit missing primitive fields and evidence (form mode) when the client declares elicitation; otherwise they return VALIDATION_FAILED with missing_fields",
+    "error_shape": "{error:{code,message,missing_fields?,invalid_fields?,retryable?}}"
+  },
+  "demo": {
+    "how_to_run": "npm start (Node 20+; installs, seeds, serves http://localhost:5173). npm test runs the core smoke test and the MCP stdio client test. npm run mcp starts the MCP server.",
+    "status": "working end to end in scripted mode: resume→profile, narrative-first review interview, live course page with decaying good-to-knows, personalized real events + .ics, outcome interview (biggest factor), path insights, Ask the Cohort with citation checks, Ask & Share, campus admin with moderation/escalation, Under-the-hood MCP panel, Career Passport export/import",
+    "known_gaps": ["live-LLM path implemented but untested here (no API key in build env)", "events are a verified snapshot (2026-11-18), not a live ICS/RSS feed", "TF-IDF stands in for a vector index", "instructor identities pseudonymous by design", "MCP App view not built (stretch)"]
+  },
+  "assumptions": ["Hackathon rule 'real options only' overrides the module's fictional-campus default: courses/events real, people synthetic", "Judging = AI skills, look, usefulness, process (from kickoff slides)", "Scope is Tippie GPP and its undergrads; stage enrolled/heading_out/alumni added to every profile", "min_n = 5 for every aggregate; small cells (<2) merged and reviewer context hidden for groups <3", "Default models claude-sonnet-5-5 (strong) and claude-haiku-5-5 (cheap), overridable by env"],
+  "open_questions": ["Will GPP approve mapping pseudonymous instructor IDs to real names, and under what policy?", "Which GPP calendar feeds (ICS/RSS) can be ingested live?", "What data-access/FERPA path exists for pulling courses_taken from MyUI vs. student-entered?", "Who staffs the moderation and escalation queue, and with what SLA?", "Should alumni outcomes be shared across Big Ten or peer campuses (multi-tenant aggregation)?"],
+  "extension_points": {
+    "second_prompt_attaches_at": ["Profile.extensions.x_* (e.g. academic plan, semester follow-ups)", "EventResource.source adapters (ICS/RSS/Handshake)", "core/store adapter (Postgres + pgvector)", "x_ tools on the MCP server (e.g. x_plan_semester, x_schedule_checkin)", "prompts/ pack (add prompts; never edit frozen field names)", "CareerPassport.extensions for cross-system data"],
+    "rules": "Never rename fields, IDs, tool names or schema versions; extend with x_ prefix; breaking changes = new schema version + note in schemas/MIGRATIONS.md"
+  },
+  "file_manifest": ["README.md", "package.json", ".env.example", "schemas/*.schema.json (10) + index.json + MIGRATIONS.md", "prompts/_shared_rules.md, review_interview.md, review_extractor.md, outcome_interview.md, profile_builder.md, post_structurer.md, ask_cohort.md, moderation.md", "core/index.js, interview.js, extract.js, validate.js, llm.js, moderation.js, text.js, errors.js, store/json.js", "mcp/server.js", "web/server.js, web/public/index.html, app.js, styles.css", "scripts/seed.js, build-schemas.js, start.js", "data/real/gpp_alumni_titles.csv, data/seed/resumes/*_fictional.txt", "tests/smoke.js, tests/mcp-client.js, tests/fixtures/idea_discrete_structures.txt", "docs/DEMO_SCRIPT.md, docs/PITCH.md, docs/PROMPT_1_HANDOFF.json"]
+}

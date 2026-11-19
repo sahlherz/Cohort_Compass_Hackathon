@@ -1,0 +1,529 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/course-review/1.0.0",
+  "title": "CourseReview",
+  "description": "Validated, structured course/instructor review produced by the Structured Review Interview. Behaviour and course design only, never personal attributes.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "course_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,5}:[0-9]{4}$",
+      "description": "Registrar course code, e.g. MBA:8180"
+    },
+    "instructor_id": {
+      "type": "string",
+      "pattern": "^ins_[a-z0-9_-]+$",
+      "description": "Pseudonymous instructor ID; real names only via campus-approved mapping"
+    },
+    "term": {
+      "type": "string",
+      "pattern": "^(Spring|Summer|Fall|Winter) [0-9]{4}$"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "in_person",
+        "online_sync",
+        "online_async",
+        "hybrid",
+        "evening_weekend"
+      ]
+    },
+    "reviewer_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Anonymized, bucketed context only. No names, no exact employers.",
+      "properties": {
+        "program_year": {
+          "type": "string",
+          "enum": [
+            "year_1",
+            "year_2",
+            "year_3_plus",
+            "part_time",
+            "alumni"
+          ]
+        },
+        "concentration": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "background_bucket": {
+          "type": "string",
+          "enum": [
+            "finance",
+            "accounting",
+            "engineering",
+            "tech",
+            "healthcare",
+            "operations",
+            "marketing_sales",
+            "arts_humanities",
+            "public_nonprofit",
+            "other"
+          ]
+        },
+        "career_target": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "stage": {
+          "type": "string",
+          "enum": [
+            "prospective",
+            "enrolled",
+            "heading_out",
+            "alumni"
+          ],
+          "description": "Lifecycle stage (GPP: while enrolled → heading out → after graduation)"
+        }
+      }
+    },
+    "workload_hours_per_week": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 60
+    },
+    "workload_trend": {
+      "type": "string",
+      "enum": [
+        "front_loaded",
+        "steady",
+        "back_loaded",
+        "spiky"
+      ]
+    },
+    "pace": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = very slow, 5 = very fast"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = very easy, 5 = very hard"
+    },
+    "clarity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = very unclear, 5 = very clear"
+    },
+    "feedback_quality": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = little/late feedback, 5 = specific & timely"
+    },
+    "grading_mix": {
+      "type": "array",
+      "description": "Percent of grade by assessment type; should sum to ~100",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "percent"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "exams",
+              "quizzes",
+              "problem_sets",
+              "case_writeups",
+              "group_project",
+              "individual_project",
+              "participation",
+              "presentations",
+              "discussion_posts",
+              "other"
+            ]
+          },
+          "percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      }
+    },
+    "group_work_intensity": {
+      "type": "string",
+      "enum": [
+        "none",
+        "light",
+        "moderate",
+        "heavy"
+      ]
+    },
+    "cold_calling": {
+      "type": "string",
+      "enum": [
+        "never",
+        "occasional",
+        "frequent"
+      ]
+    },
+    "attendance_policy": {
+      "type": "string",
+      "enum": [
+        "required_graded",
+        "required_ungraded",
+        "optional",
+        "recorded_async"
+      ]
+    },
+    "attendance_impact": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "description": "How much attending changed outcomes/learning"
+    },
+    "office_hours_value": {
+      "type": "string",
+      "enum": [
+        "not_used",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "instructor_response_time_hours": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 336
+    },
+    "skills_gained": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 60
+      },
+      "maxItems": 12
+    },
+    "career_relevance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "target_roles": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "maxItems": 8
+        },
+        "recruiter_signal": {
+          "type": "string",
+          "enum": [
+            "none",
+            "some",
+            "strong"
+          ]
+        }
+      }
+    },
+    "prerequisites_actually_needed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 80
+      },
+      "maxItems": 8
+    },
+    "topics_covered": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "topic": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "depth": {
+            "type": "string",
+            "enum": [
+              "intro",
+              "working",
+              "deep"
+            ]
+          },
+          "hardest": {
+            "type": "boolean"
+          }
+        }
+      },
+      "maxItems": 15
+    },
+    "would_retake": {
+      "type": "boolean"
+    },
+    "best_for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 100
+      },
+      "maxItems": 6
+    },
+    "avoid_if": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 100
+      },
+      "maxItems": 6
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "evidence"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string",
+            "maxLength": 200,
+            "description": "What the example supports, e.g. \"feedback_quality=5\""
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 600,
+            "description": "Concrete, behaviour-focused example"
+          },
+          "field": {
+            "type": "string"
+          }
+        }
+      },
+      "maxItems": 10,
+      "description": "Required for any 1 or 5 rating and for any warning"
+    },
+    "good_to_knows": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^gtk_"
+      },
+      "description": "IDs of GoodToKnow records created from this review"
+    },
+    "summary_confirmed": {
+      "type": "boolean",
+      "description": "User confirmed the plain-language summary"
+    },
+    "moderation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "needs_edit"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewed_by": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "staff"
+          ]
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "course_id",
+    "term",
+    "workload_hours_per_week",
+    "difficulty",
+    "clarity",
+    "would_retake"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "anyOf": [
+          {
+            "properties": {
+              "pace": {
+                "enum": [
+                  1,
+                  5
+                ]
+              }
+            },
+            "required": [
+              "pace"
+            ]
+          },
+          {
+            "properties": {
+              "difficulty": {
+                "enum": [
+                  1,
+                  5
+                ]
+              }
+            },
+            "required": [
+              "difficulty"
+            ]
+          },
+          {
+            "properties": {
+              "clarity": {
+                "enum": [
+                  1,
+                  5
+                ]
+              }
+            },
+            "required": [
+              "clarity"
+            ]
+          },
+          {
+            "properties": {
+              "feedback_quality": {
+                "enum": [
+                  1,
+                  5
+                ]
+              }
+            },
+            "required": [
+              "feedback_quality"
+            ]
+          }
+        ]
+      },
+      "then": {
+        "required": [
+          "examples"
+        ],
+        "properties": {
+          "examples": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ]
+}

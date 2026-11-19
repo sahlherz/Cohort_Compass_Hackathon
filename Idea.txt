@@ -1,0 +1,41 @@
+First, I want to discuss RateMyProfessor.
+
+Personally, I go onto it to learn about what I can expect when taking a class. I look up the teacher for that class, see some things about hard/not hard, or teacher is nice/not nice, and get some rough data.
+
+I mean, the reason why you would want to know about what a teacher is like is to help in your class-registration process.
+
+But, I find RateMyProfessor to be quite lacking.
+First, I have used RateMyProfessor many times and still always end up taking a class and having my picture of what the class is like either shattered, or, if I had no initial picture, only fully develop after like half a semester.
+
+I had no idea what Discrete Structures taught until I took it: The course registration information is so wordy yet brief, using terms I can't understand until after the class itself, and with no reference to how in depth it goes on each thing or of their relative importances.
+I had no idea what the *structure* of Discrete Structures was until I took it:
+	Assignments started off being 15 hours per week and then became more like 10h/week, for the last bit of the course they were like 3h/week
+	We also had one discussion assignment per week to be done with a group, it wasn't too long and was pretty manageable
+	We went over logic and then basic proofs, especially by induction or contradiction, and we also went over some topics like Big O notation, probability stuff like counting and combinatorics, for example {possibly insert example question}, and blah blah X, the hardest part for me was Y.
+	The skills in it ended up being useful for future CS classes but haven't been useful yet for any personal projects {people could click on the reviewer's profile and see some description of what they've done, possibly including projects} or for any real-world work.
+	On the other hand, Data Structures, which I took at the same time, ended up being really useful for future programming stuff like understanding a core aspect of leetcode-type problems, or just building good programs really. It was recommended to take Data together with or after Discrete but I didn't find much overlap except for Big O
+
+So, we could fill the need that RateMyProfessor fails to fulfill.
+
+Second, we need our idea to be something people can use lifelong, even after they graduate.
+
+They said they wanted something people can use in undergrad, grad school, and that follows them afterwards in their career. The last part may not be as feasible and thus not as important.
+
+So, rather than only focusing on classes, we recognized that the same fundamental idea applies to all opportunities:
+	Events, businesses and jobs in the area, businesses with UIowa grads in them, internships, random nice volunteering opportunities, study abroad stuff, extremely successful people (most CS majors at UoI do not know about Cesare Tinelli or how accomplished he is in his field), competitions, clubs
+	You usually don't understand the reality of taking an opportunity until in the midst of doing so, unless you were told a lot about it by a friend. One club might really be a waste of time or only of very marginal benefit, while another club may completely upgrade your skillset. A research event may be prestigious but without opportunities for an undergraduate to discuss things much with researchers. One lab may make you do busywork while another gives you awesome stuff to work on. Or maybe it's important to know that a specific lab starts off with busywork but transitions to giving you awesome stuff.
+
+So, instead of just asking people about classes, we want to ask people to give input about the critical 
+	
+
+
+
+
+
+
+
+
+
+
+
+	

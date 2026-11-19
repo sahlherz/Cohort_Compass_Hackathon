@@ -1,0 +1,75 @@
+{
+  "schema_set_version": "1.0.0",
+  "schemas": [
+    {
+      "name": "course-review",
+      "title": "CourseReview",
+      "$id": "https://schemas.cohortcompass.app/course-review/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/course-review.schema.json"
+    },
+    {
+      "name": "good-to-know",
+      "title": "GoodToKnow",
+      "$id": "https://schemas.cohortcompass.app/good-to-know/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/good-to-know.schema.json"
+    },
+    {
+      "name": "post",
+      "title": "Post",
+      "$id": "https://schemas.cohortcompass.app/post/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/post.schema.json"
+    },
+    {
+      "name": "event-resource",
+      "title": "EventResource",
+      "$id": "https://schemas.cohortcompass.app/event-resource/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/event-resource.schema.json"
+    },
+    {
+      "name": "profile",
+      "title": "Profile",
+      "$id": "https://schemas.cohortcompass.app/profile/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/profile.schema.json"
+    },
+    {
+      "name": "career-outcome",
+      "title": "CareerOutcome",
+      "$id": "https://schemas.cohortcompass.app/career-outcome/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/career-outcome.schema.json"
+    },
+    {
+      "name": "path-insight",
+      "title": "PathInsight",
+      "$id": "https://schemas.cohortcompass.app/path-insight/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/path-insight.schema.json"
+    },
+    {
+      "name": "course",
+      "title": "Course",
+      "$id": "https://schemas.cohortcompass.app/course/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/course.schema.json"
+    },
+    {
+      "name": "career-passport",
+      "title": "CareerPassport",
+      "$id": "https://schemas.cohortcompass.app/career-passport/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/career-passport.schema.json"
+    },
+    {
+      "name": "error",
+      "title": "Error",
+      "$id": "https://schemas.cohortcompass.app/error/1.0.0",
+      "version": "1.0.0",
+      "file": "schemas/error.schema.json"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/post/1.0.0",
+  "title": "Post",
+  "description": "\"Ask & Share\" post, lightly structured by AI so colloquial knowledge stays searchable. Tips can be promoted to GoodToKnow.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "author_profile_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "question",
+        "tip",
+        "story"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "course",
+        "instructor",
+        "program",
+        "campus",
+        "career"
+      ]
+    },
+    "scope_ref": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9_:-]{2,40}$"
+      },
+      "maxItems": 10
+    },
+    "text": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 4000
+    },
+    "linked_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "promoted_good_to_know_id": {
+      "type": "string"
+    },
+    "escalate_to_staff": {
+      "type": "boolean",
+      "description": "Sensitive topic (e.g. visa, finances, wellbeing) → route to GPP staff, not the AI"
+    },
+    "moderation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "needs_edit"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "type",
+    "scope",
+    "tags",
+    "text"
+  ]
+}

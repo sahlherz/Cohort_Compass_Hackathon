@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/course/1.0.0",
+  "title": "Course",
+  "description": "Catalog course. Real courses only; source_url or syllabus provenance required.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "course_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,5}:[0-9]{4}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "undergraduate",
+        "graduate"
+      ]
+    },
+    "credits": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "terms_seen": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prerequisites_official": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "description_short": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "instructor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^ins_"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "course_id",
+    "title",
+    "level"
+  ]
+}

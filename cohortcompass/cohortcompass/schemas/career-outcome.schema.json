@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/career-outcome/1.0.0",
+  "title": "CareerOutcome",
+  "description": "Structured record from the Career Outcome Interview. Always captures the single biggest factor.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "internship",
+        "full_time",
+        "promotion",
+        "fellowship",
+        "startup",
+        "other"
+      ]
+    },
+    "org_type": {
+      "type": "string",
+      "enum": [
+        "public_company",
+        "private_company",
+        "startup",
+        "nonprofit",
+        "government",
+        "university",
+        "self"
+      ]
+    },
+    "industry": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "function": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "role": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "target": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Normalized path target for aggregation, e.g. finance_leadership"
+    },
+    "season": {
+      "type": "string",
+      "pattern": "^(Spring|Summer|Fall|Winter) [0-9]{4}$"
+    },
+    "channel": {
+      "type": "string",
+      "enum": [
+        "on_campus_recruiting",
+        "alumni_referral",
+        "internal_promotion",
+        "cold_outreach",
+        "job_board",
+        "recruiter_inbound",
+        "other"
+      ]
+    },
+    "timeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "first_touch": {
+          "type": "string"
+        },
+        "offer": {
+          "type": "string"
+        },
+        "weeks_total": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 520
+        }
+      }
+    },
+    "biggest_factor": {
+      "type": "object",
+      "required": [
+        "category",
+        "description"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": [
+            "coursework_skill",
+            "project_portfolio",
+            "networking_referral",
+            "prior_experience",
+            "certification",
+            "interview_prep",
+            "event_attended",
+            "mentor_sponsor",
+            "other"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 15,
+          "maxLength": 500
+        }
+      }
+    },
+    "supporting_factors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "rank",
+          "category",
+          "description"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "category": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 300
+          }
+        }
+      },
+      "maxItems": 6
+    },
+    "courses_that_helped": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "course_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "course_id": {
+            "type": "string"
+          },
+          "how": {
+            "type": "string",
+            "maxLength": 240
+          }
+        }
+      }
+    },
+    "people_roles_that_helped": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "alum",
+              "professor",
+              "career_coach",
+              "peer",
+              "manager",
+              "recruiter",
+              "mentor",
+              "other"
+            ]
+          },
+          "how": {
+            "type": "string",
+            "maxLength": 240
+          },
+          "name_with_consent": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "events_attended": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "event_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "how": {
+            "type": "string",
+            "maxLength": 240
+          }
+        }
+      }
+    },
+    "resources_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 120
+      }
+    },
+    "do_differently": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "advice_for_next_cohort": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "backfill": {
+      "type": "boolean",
+      "description": "TRUE when captured retroactively for a past resume role"
+    },
+    "summary_confirmed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "type",
+    "role",
+    "target",
+    "biggest_factor"
+  ]
+}

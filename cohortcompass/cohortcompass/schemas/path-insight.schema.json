@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.cohortcompass.app/path-insight/1.0.0",
+  "title": "PathInsight",
+  "description": "Aggregate \"what it took to get X\". Only shown when min_n_met. Never re-identifying.",
+  "x-schema-version": "1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,4}_[A-Za-z0-9_-]{3,64}$",
+      "description": "Stable, prefixed ID, e.g. rev_0001"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "campus_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "program_type": {
+      "type": "string",
+      "enum": [
+        "BBA",
+        "MBA",
+        "MS",
+        "MSF",
+        "MSBA",
+        "JD",
+        "PhD",
+        "certificate",
+        "other"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source",
+        "synthetic"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "user_interview",
+            "user_form",
+            "import",
+            "seed",
+            "catalog",
+            "syllabus",
+            "calendar"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean",
+          "description": "TRUE for demo data. Synthetic records must never be presented as real."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "interview_id": {
+          "type": "string"
+        }
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "Forward-compatible extension point. Keys MUST start with x_.",
+      "patternProperties": {
+        "^x_[a-z0-9_]+$": {}
+      },
+      "additionalProperties": false,
+      "default": {}
+    },
+    "target": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "target_label": {
+      "type": "string"
+    },
+    "n": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000000
+    },
+    "min_n": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1000
+    },
+    "min_n_met": {
+      "type": "boolean"
+    },
+    "factor_distribution": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "count",
+          "share"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000
+          },
+          "share": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "common_courses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "course_id",
+          "count"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "course_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000
+          }
+        }
+      }
+    },
+    "common_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "count"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000
+          }
+        }
+      }
+    },
+    "common_channels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "channel",
+          "count"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "channel": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000
+          }
+        }
+      }
+    },
+    "typical_timeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "median_weeks": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 520
+        },
+        "p25_weeks": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 520
+        },
+        "p75_weeks": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 520
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "insufficient",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "cited_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "computed_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "schema_version",
+    "campus_id",
+    "program_id",
+    "program_type",
+    "created_at",
+    "provenance",
+    "target",
+    "n",
+    "min_n",
+    "min_n_met",
+    "confidence",
+    "computed_at"
+  ]
+}
