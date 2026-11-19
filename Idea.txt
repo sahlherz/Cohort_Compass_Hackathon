@@ -25,7 +25,43 @@ So, rather than only focusing on classes, we recognized that the same fundamenta
 	Events, businesses and jobs in the area, businesses with UIowa grads in them, internships, random nice volunteering opportunities, study abroad stuff, extremely successful people (most CS majors at UoI do not know about Cesare Tinelli or how accomplished he is in his field), competitions, clubs
 	You usually don't understand the reality of taking an opportunity until in the midst of doing so, unless you were told a lot about it by a friend. One club might really be a waste of time or only of very marginal benefit, while another club may completely upgrade your skillset. A research event may be prestigious but without opportunities for an undergraduate to discuss things much with researchers. One lab may make you do busywork while another gives you awesome stuff to work on. Or maybe it's important to know that a specific lab starts off with busywork but transitions to giving you awesome stuff.
 
-So, instead of just asking people about classes, we want to ask people to give input about the critical 
+So, instead of just asking people about classes, we want to ask people to give input about:
+	critical factors for their successes 
+	missed opportunities
+	things we haven't already gotten much input about
+
+and we want to do so in a way where the person doesn't feel annoyed giving a ton of info
+
+my initial idea for this is that we have an ai ask them (in text; no need to have it speak aloud in my opinion... but maybe we can have an option for that. just depends on setup difficulty) questions based on the factors we saw earlier. maybe for this project we should finetune that ai?
+
+and then, the person can answer OUT LOUD, and their spoken answer gets pieced apart and sorted into whatever categories. the ai can then either ask more questions or accept their answer. speaking out loud is faster/more convenient than typing most of the time, and helps preserve the "colloquial" type of response that we'd like to see, as this is part of what makes RateMyProfessor fun, and, crucially, it's often easier to give a lot of useful info fast in colloquial speech than in formal-ish writing
+
+maybe we could have a separate option where they see some example great responses (similar to the discrete structures thing I explained above), optionally get asked a broad question (like, "tell me about X event"), and give a long free-response type of answer, then the ai can still probe them more
+
+Essentially, I'd like it to be convenient for a person to give information. At the same time, we would like to get varied responses, a lot out of a person, and not annoy a person (so they should be able to stop giving info at any time, and we'd just use whatever they gave us).
+Part of that convenience is giving them multiple choices for how they'd like to engage with it. Whether they'd like the AI to ask them about the thing, whether they'd like to just give a rant, whether they'd like a structured template to follow...
+
+But in the end, what we want is useful information that isn't just some vague course listing like we see in MyUI, or some vague event description. we want info about how impactful it was for someone. about networking opportunities. about difficulty. about so many different things. and we'll have to get these in aggregate from a bunch of different people.
+
+
+
+
+Ok I now understand how I want the part of someone looking at a specific event/course/whatever to look. I don't want it to be that there's a bunch of like sub-topics under pertaining to like, difficulty, networking, etc., and then the AI took pieces of people's responses and sorted it into those.
+Instead, I want it to just be that if someone spoke about a certain class or event or whatever, their profile will show up in a list under that item when someone goes on the page for that item, and then under their profile there will be a sequence of the questions AI asked them (if any), and the responses to those questions. It can be like AI on the left, human on the right, like a messaging app.
+Clicking on a person's profile takes you to their page. On their page is their responses, stuff like that, and under the profile icon thing is a small button or something saying Resume. Clicking on that just opens the Resume file in a new tab. That's just a resume that the person uploaded.
+
+When a person makes an account, they'd be prompted to optionally update their resume.
+If they don't want to, that's fine, they'd just have to think of something to give info about themselves. 
+If they do upload it, great, we can go through the process I had outlined above about how the AI asks them questions and stuff, and the way that the AI would know what stuff this person has taken and things like that would be the resume
+
+Thing is, events are not in resumes. I'm not sure of the solution to that yet. Maybe we just encourage people to think of an event they went to of some sort (whether it's a colloquiam (that's how I got my RA position in a lab for example), a career fair, a specific event... whatever really). same for clubs or anything like that. Maybe we should just have a bunch of fields of options for what they can talk about, each with a textbox under it. not sure. also not sure how that would integrate with the AI-led mode I mentioned earlier yet. maybe that's the answer: modes, where they can be led by AI or not
+
+
+
+
+
+
+
 	
 
 
