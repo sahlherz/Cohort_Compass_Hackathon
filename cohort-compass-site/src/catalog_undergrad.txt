@@ -1,0 +1,149 @@
+@Computer Science|https://catalog.registrar.uiowa.edu/courses/cs/
+CS:1010 | Computing in Context | Traces computing's history from ancient tools to modern AI and its effect on society.
+CS:1020 | Principles of Computing | Broad overview of computing and the practical skills needed to apply it in one's field.
+CS:1110 | Introduction to Computer Science | Surveys algorithms, networking, databases, AI, and security, with hands-on Python for data-intensive majors.
+CS:1210 | Computer Science I: Fundamentals | Python programming fundamentals, data structures, and object-oriented design for problem solving.
+CS:1500 | Computing, Ethics, and Society | Explores ethics, privacy, intellectual property, and fairness issues in computing and information technology.
+CS:2110 | Programming for Informatics | Python-based introduction to programming and core computing concepts, including data modeling and basic analysis.
+CS:2210 | Discrete Structures | Logic, proofs, induction, graphs, trees, and counting methods used in computer science.
+CS:2230 | Computer Science II: Data Structures | Implements linked lists, stacks, queues, hash tables, and trees, with complexity analysis and recursion.
+CS:2420 | Analyzing Data for Informatics | Covers data collection, modeling, relational databases, statistics, mining, machine learning, and privacy.
+CS:2520 | Human-Computer Interaction for Informatics | Usability and user-centered design principles, evaluation methods, and basic HTML and JavaScript.
+CS:2620 | Server-Side Development for Informatics | Builds data-driven web apps using REST, cloud services, server frameworks, and database integration.
+CS:2630 | Computer Organization | Covers digital logic through assembly language and how these connect to C program execution.
+CS:2800 | Introduction to Coding for Interactive Arts | Combines art and technology through hands-on experiments with Arduino, programming, and interface design.
+CS:2820 | Introduction to Software Development | Software design, refactoring, abstraction, testing, and a larger project involving reading others' code.
+CS:3010 | Software Engineering Fundamentals in Java | Teaches Java fundamentals and object-oriented programming for students already familiar with another language.
+CS:3210 | Programming Languages and Tools | Survey of varied programming languages and development tools.
+CS:3330 | Algorithms | Algorithm design techniques, graph algorithms, efficiency analysis, and NP-completeness.
+CS:3420 | Introduction to Artificial Intelligence | Core AI topics including knowledge representation, heuristic search, constraint satisfaction, logic, and machine learning.
+CS:3620 | Operating Systems | Covers device control, memory, scheduling, interprocess communication, synchronization, and security in modern OSes.
+CS:3640 | Introduction to Networks and Their Applications | Network principles, socket programming, routing, TCP/UDP, and application-layer protocols.
+CS:3700 | Introduction to Numerical Methods | Numerical methods for root finding, interpolation, integration, linear algebra, and differential equations.
+CS:3820 | Programming Language Concepts | Compares imperative, functional, and logic languages, covering syntax, types, recursion, and abstraction.
+CS:3910 | Informatics Project | Small teams design, build, and test a system or analyze a dataset as an informatics capstone.
+CS:3990 | Honors in Computer Science or Informatics | Individual honors projects for eligible computer science or informatics majors.
+CS:4310 | Design and Implementation of Algorithms | Algorithm design with an implementation focus: data structures, graphs, dynamic programming, randomization, intractability.
+CS:4330 | Theory of Computation | Covers automata, formal grammars, Turing machines, and undecidability.
+CS:4350 | Logic in Computer Science | Propositional, predicate, temporal, and modal logics for modeling computation and verifying statements.
+CS:4400 | Database Systems | SQL querying, ER design, relational database development, and web apps using PHP or JDBC.
+CS:4420 | Advanced Artificial Intelligence | Automated reasoning, planning, game playing, and machine learning, including deep learning methods.
+CS:4440 | Web Mining | Web-based methods for information retrieval, document summarization, and social network identification.
+CS:4470 | Health Data Analytics | Analysis of electronic health records, public health, biomedical, and social media health data through research papers.
+CS:4472 | Introduction to Algorithms for Bioinformatics and Biomedicine | Algorithm design for bioinformatics, drug discovery, and biomedicine.
+CS:4500 | Research Methods in Human-Computer Interaction | Introduces HCI research methods, running experiments, and reviewing recent research.
+CS:4510 | Human-Computer Interaction for Computer Science | HCI theory and evaluation methods applied through a collaborative software development project.
+CS:4550 | Multimedia Systems | Technologies and algorithms for handling text, audio, images, and video in computer systems.
+CS:4630 | Mobile Computing | Mobile sensing systems covering sensors, wireless communication, middleware, embedded projects, and a research paper.
+CS:4640 | Computer Security | Authentication, access control, cryptographic protocols, key management, and security assessment.
+CS:4660 | Cryptography | Symmetric and public-key encryption, hashing, block ciphers, number theory, and digital signatures.
+CS:4700 | High Performance and Parallel Computing | Parallel algorithms on multicore processors and GPUs, with scientific and large-scale data applications.
+CS:4720 | Optimization Techniques | Linear, nonlinear, and dynamic optimization theory, sensitivity analysis, convexity, and calculus of variations.
+CS:4740 | Large Data Analysis | Big data techniques spanning parallel computing, matrix methods, clustering, visualization, and applications.
+CS:4980 | Topics in Computer Science II | Advanced topics complementing other courses, varying by offering, for graduate and advanced undergraduate students.
+@Mathematics|https://catalog.registrar.uiowa.edu/courses/math/
+MATH:1005 | College Algebra | Algebraic methods, equations, inequalities, functions, graphs, and exponential and logarithmic models.
+MATH:1350 | Quantitative Reasoning for Business | Algebra, functional models, and introductory differential calculus with business and economic applications.
+MATH:1550 | Engineering Calculus I | Functions, limits, derivatives, integrals, and the basics of vectors.
+MATH:1560 | Engineering Calculus II | Integration techniques, sequences and series, parametric and polar coordinates, and vector-valued functions.
+MATH:1850 | Calculus I | Single-variable limits, differentiation, integration, and applications such as graphing and volumes.
+MATH:1860 | Calculus II | Integration techniques, improper integrals, differential equations basics, and infinite series with Taylor expansions.
+MATH:2220 | Discrete Probability and Linear Algebra | Linear algebra and probability used in computer science, including Markov chains and least squares.
+MATH:2550 | Engineering Matrix Algebra | Matrix and vector operations, eigenvalues, determinants, and diagonalization with computer applications.
+MATH:2560 | Engineering Differential Equations | Ordinary differential equations, Laplace transforms, and stability of nonlinear systems in the phase plane.
+MATH:2700 | Introduction to Linear Algebra | Vector spaces, linear transformations, matrices, determinants, eigenvalues, and diagonalization.
+MATH:2850 | Calculus III | Multivariable calculus, including multiple integrals, vector fields, and the major integral theorems.
+MATH:3550 | Engineering Vector Calculus | Partial derivatives, vector fields, key integral theorems, and classical partial differential equations.
+MATH:3600 | Introduction to Ordinary Differential Equations | First- and second-order equations, series solutions, systems, and existence and uniqueness theorems.
+MATH:3720 | Introduction to Abstract Algebra | Group theory, including permutations, subgroups, quotient groups, and homomorphisms.
+MATH:3770 | Foundations of Analysis | The real number system, limits, convergence, and the theory underlying calculus.
+MATH:3800 | Introduction to Numerical Methods | Numerical root finding, interpolation, integration, linear algebra, and differential equation solvers using programming.
+MATH:3900 | Introduction to Mathematics Research | Group research on an elementary active research topic under faculty supervision.
+MATH:3999 | Problem Solving for Mathematics Competitions | Logical reasoning and problem-solving skills for competitions like the Putnam and modeling contests.
+MATH:4050 | Introduction to Discrete Mathematics | Counting, inclusion-exclusion, recurrence relations, generating functions, and Polya-Burnside applications.
+MATH:4060 | Discrete Mathematical Models | Graph theory, combinatorics, and graph-based models for scheduling, matching, and optimization.
+MATH:4080 | Number Theory and Cryptography | Elementary number theory and its role in public key cryptography and digital security.
+MATH:4090 | A Rigorous Introduction to Abstract Algebra | Groups, rings, polynomial rings, vector spaces, and basic field theory.
+MATH:4200 | Complex Variables | Analytic functions, the complex plane, Cauchy's theorem, residues, and conformal mapping.
+MATH:4220 | Fourier Analysis and Applications | Fourier series and transforms, convergence modes, Parseval's identity, and convolutions.
+MATH:4250 | Introduction to Financial Mathematics | Option pricing, portfolio optimization, stochastic integration, and Monte Carlo simulation.
+MATH:4700 | Partial Differential Equations and Applications | Elliptic, parabolic, and hyperbolic PDEs and their applications in science and engineering.
+MATH:4740 | Large Data Analysis | Big data techniques from computing, mathematics, and statistics, with applications like PageRank and forecasting.
+MATH:4750 | Introduction to Mathematical Biology | Differential equation models across neurobiology, epidemiology, ecology, and related fields.
+MATH:4820 | Optimization Techniques | Linear and nonlinear programming, convexity, optimal control, dynamic programming, and calculus of variations.
+MATH:4840 | Mathematics of Machine Learning | Regression, matrix methods, optimization, neural networks, and game theory behind machine learning.
+MATH:4860 | High Performance and Parallel Computing | Parallel algorithm design and implementation on multicore processors and GPUs for scientific and data applications.
+@Electrical and Computer Engineering|https://catalog.registrar.uiowa.edu/courses/ece
+ECE:2400 | Linear Systems I | Signals, systems, Fourier analysis, filters, sampling, and stability fundamentals.
+ECE:2410 | Principles of Electronic Instrumentation | Analog amplifiers, operational amplifier circuits, and transistor amplifier design, with lab work.
+ECE:3000 | Electrical and Computer Engineering Professional Seminar | Professional engineering practice through guest speakers, field trips, and panel discussions.
+ECE:3320 | Introduction to Digital Design | Digital switching circuits, sequential logic, interfacing, and design with integrated circuits.
+ECE:3330 | Introduction to Software Design | Software design for engineering systems, including algorithms, data structures, and Java programming.
+ECE:3350 | Computer Architecture and Organization | Processor design, instruction sets, memory hierarchies, pipelining, and hardware description languages.
+ECE:3360 | Embedded Systems | Microcontroller-based system design, device interfacing, and operating system fundamentals.
+ECE:3400 | Linear Systems II | Digital signal processing, filter design, and Z-transform analysis in MATLAB.
+ECE:3410 | Electronic Circuits | FET and BJT amplifier design, feedback, power amplifiers, and SPICE simulation.
+ECE:3500 | Communication Systems | Analog and digital modulation, noise analysis, and probability for communication systems.
+ECE:3540 | Communication Networks | Layered network architectures, protocols, routing, congestion control, and network security.
+ECE:3600 | Control Systems | Feedback control modeling, stability analysis, root-locus, frequency response, and compensation design.
+ECE:3700 | Electromagnetic Theory | Electric and magnetic fields, Maxwell's equations, wave propagation, and transmission lines.
+ECE:3720 | Semiconductor Devices | Semiconductor physics and operation of p-n junction diodes, bipolar transistors, and FETs.
+ECE:3995 | Undergraduate Contemporary Topics in Electrical and Computer Engineering | New ECE topics based on faculty and student interest.
+ECE:3998 | Individual Investigations: Electrical Engineering | Undergraduate individual projects in lab study, design, simulation, software, or research.
+ECE:4720 | Introductory Optics | Wave optics, photons, interference, diffraction, polarization, lasers, and nonlinear optics.
+ECE:4880 | Electrical and Computer Engineering Senior Design 1 | Design problems that integrate subject matter from required ECE courses.
+ECE:4890 | Electrical and Computer Engineering Senior Design 2 | Individual or team design project, with demonstration and a formal engineering report.
+@Finance|https://catalog.registrar.uiowa.edu/courses/fin/
+FIN:1500 | Introduction to Investment Banking | Nontechnical overview of investment banking to gauge interest in the Hawkinson Institute program.
+FIN:3000 | Introductory Financial Management | Valuation, capital budgeting, cost of capital, and financial statement analysis.
+FIN:3020 | Professional Finance Seminar | Finance careers, current events, internships, designations, and ethics.
+FIN:3100 | Financial Information Technology | Student teams apply common financial software and data systems to practical problems.
+FIN:3200 | Investment Management | Investing in domestic and international securities, risk versus return, and building portfolios.
+FIN:3300 | Corporate Finance | Capital structure, dividends, mergers, and convertible or callable debt.
+FIN:3400 | Principles of Risk Management and Insurance | Identifying and evaluating risk and using insurance to manage it.
+FIN:3500 | Hawkinson Scholar Seminar | Resumes, interviews, and case work for investment banking and consulting careers.
+FIN:3510 | Hawkinson Scholar Seminar: Topics in Finance | Financial services subsectors and valuation methods used in real transactions.
+FIN:3900 | Advanced Entrepreneurial Finance | Startup valuation, deal structuring, exit options, and sources of capital.
+FIN:4020 | Topics in Finance | Contemporary issues in the finance field.
+FIN:4030 | Securities Industry Essentials Exam Prep | Preparation for the SIE exam, including a voucher to take it.
+FIN:4040 | Bloomberg Market Concepts (BMC) and ESG Certificates | Bloomberg certificates covering market fundamentals and ESG investing.
+FIN:4045 | Wall Street Prep: Financial and Valuation Modeling Seminar | Advanced modeling skills used in banking, private equity, and equity research.
+FIN:4055 | Wall Street Prep: M&A and Leveraged Buyout Modeling Seminar | Three-statement and DCF models for M&A and buyout analysis.
+FIN:4210 | Futures and Options | Options, futures, and other derivatives for hedging and speculation, including pricing relationships.
+FIN:4220 | Fixed Income Securities | Fixed income theory, yield curves, bond valuation, and portfolio strategies.
+FIN:4225 | Applied Fixed Income Analysis - Hart Fund | Managing a fixed income fund, making recommendations, and monitoring performance.
+FIN:4230 | Real Estate Process | Real estate market analysis, mortgages, valuation, and portfolio management.
+FIN:4240 | International Finance | Exchange rates, currency derivatives, and international corporate and investment decisions.
+FIN:4250 | Applied Equity Valuation | Equity valuation and portfolio construction while managing the Krause Fund.
+FIN:4255 | Henry Fund | Managing the Henry Fund's long-only equity portfolio as an investment committee.
+FIN:4310 | Advanced Corporate Finance | M&A, IPOs, and an introduction to venture capital and buyouts.
+FIN:4320 | Commercial Banking | Managing commercial banks: liquidity, credit policy, capital risk, and interest rate hedging.
+FIN:4330 | Investment Banking | Investment banks' market roles, client advisory work, and the conflicts and risks involved.
+FIN:4340 | Wealth Management | Diversified client portfolios, asset allocation, behavioral biases, and retirement planning.
+FIN:4350 | Applied Wealth Management | Financial plans for real clients or fund pools.
+FIN:4410 | Enterprise Risk Management | Identifying and managing business risks, and how insurance reduces the cost of risk.
+FIN:4450 | Risk Modeling | Quantitative risk analysis using probability, mathematical finance, and actuarial methods.
+FIN:4470 | Insurtech Innovation | Insurance technology innovation, from successful and failed real-world examples.
+@Business Analytics|https://catalog.registrar.uiowa.edu/courses/bais/
+BAIS:1500 | Business Technology and Artificial Intelligence | AI basics plus hands-on Microsoft Office and Power BI skills for beginning analytics.
+BAIS:2800 | Foundations of Business Analytics | Data-driven business decisions using visualization, statistics, and introductory Excel analytics.
+BAIS:2900 | Artificial Intelligence in Business | Nontechnical overview of integrating AI into businesses: ethics, risks, and real cases.
+BAIS:3000 | Operations Management | Managing production and service operations: design, quality, planning, and scheduling.
+BAIS:3005 | Information Systems | Computing and data analysis for business problems using databases, Python, and visualization.
+BAIS:3020 | Computational Thinking | Algorithmic problem-solving in Python using data structures to manipulate business data.
+BAIS:3025 | Business Process Automation | Process mining and robotic process automation to map, measure, and improve workflows.
+BAIS:3050 | Business Analytics and Information Systems Professional Preparation | Career paths in analytics and information systems and how to prepare for them.
+BAIS:3100 | Accounting Systems and Analytics | Accounting systems, internal controls, IS auditing, and transaction processing using Python and databases.
+BAIS:3140 | Information Visualization | Effective data graphics design using statistics and human perception principles.
+BAIS:3150 | Emerging Technology Driving Business Innovation | Emerging technologies like blockchain and AI, with business use cases.
+BAIS:3200 | Database Management | Relational database design, data modeling, and hands-on SQL.
+BAIS:3250 | Data Wrangling | Python to collect, clean, and analyze data for descriptive and visual business insights.
+BAIS:3300 | Digital Product Management | Agile project management for digital products, experiencing each team role.
+BAIS:3400 | Cloud Computing | Cloud platforms like AWS and Azure with hands-on configuration of business solutions.
+BAIS:3500 | Data Mining | Predictive analytics: classification, regression, and clustering for business problems.
+BAIS:3600 | Data Engineering | Business metrics, data pipelines, data warehousing, and dashboards.
+BAIS:3800 | Optimization and Simulation Modeling | Optimization and Monte Carlo simulation models to guide decisions and quantify risk.
+BAIS:4150 | Business Analytics and Information Systems Capstone | A real professional analytics project for a client, with presentation and report.
+BAIS:4220 | Advanced Database Management and Big Data | SQL, PL/SQL, semi-structured data, and big data tools like Hadoop.
+BAIS:4280 | Cybersecurity | Practical cybersecurity mindset from employee, CEO, user, and hacker perspectives.
+BAIS:4540 | Statistical Learning | Supervised and unsupervised learning: regression, trees, and clustering using software.

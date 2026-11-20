@@ -1,0 +1,9 @@
+{
+  "name": "cohort-compass",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cohort Compass: what UIowa courses, events and opportunities were actually like, collected by an AI interviewer and turned into cited advice.",
+  "scripts": { "start": "node server.js", "build:data": "python3 src/build_data.py" },
+  "engines": { "node": ">=20" }
+}

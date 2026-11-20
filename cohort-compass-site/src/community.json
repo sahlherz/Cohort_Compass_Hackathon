@@ -1,0 +1,1186 @@
+{
+ "_note": "ALL PEOPLE AND THREADS BELOW ARE FICTIONAL demo data. Items they reference are real UIowa courses/events.",
+ "people": [
+  {
+   "id": "p_jordan",
+   "name": "Jordan T.",
+   "avatar": "JT",
+   "headline": "CS + Math undergrad, research assistant in an HCI lab",
+   "program": "BS Computer Science",
+   "stage": "enrolled",
+   "grad_year": 2027,
+   "path": [
+    {
+     "when": "2025",
+     "what": "Started CS major"
+    },
+    {
+     "when": "Fall 2025",
+     "what": "Went to a CS colloquium talk on learning analytics"
+    },
+    {
+     "when": "Spring 2026",
+     "what": "Undergrad RA in the speaker's lab"
+    }
+   ],
+   "biggest_factor": "Going to a colloquium talk alone and staying after to ask a question.",
+   "resume_public": true,
+   "resume": "Jordan T. (fictional)\nBS Computer Science + Mathematics, University of Iowa, expected 2027\n\nEXPERIENCE\nUndergraduate Research Assistant, HCI / learning analytics lab, Spring 2026 - present\n- Built a data-capture pipeline for classroom study sessions\n\nCOURSEWORK\nCS:2210 Discrete Structures, CS:2230 Data Structures, Linear Algebra\n\nSKILLS\nPython, Java, React"
+  },
+  {
+   "id": "p_priya",
+   "name": "Priya N.",
+   "avatar": "PN",
+   "headline": "Director of Operations, mid-size manufacturer",
+   "program": "Iowa MBA (part-time)",
+   "stage": "alum",
+   "grad_year": 2023,
+   "path": [
+    {
+     "when": "2019",
+     "what": "Operations Manager"
+    },
+    {
+     "when": "2021",
+     "what": "Started part-time Iowa MBA"
+    },
+    {
+     "when": "2023",
+     "what": "Relocated to Kansas City for work"
+    },
+    {
+     "when": "2024",
+     "what": "Promoted to Director of Operations"
+    }
+   ],
+   "biggest_factor": "Negotiation class plus the Kansas City I-Club. The class gave me the language; the I-Club gave me two people who vouched for me.",
+   "resume_public": true,
+   "resume": "Priya N. (fictional)\nIowa MBA (part-time), University of Iowa, 2023\n\nEXPERIENCE\nDirector of Operations, regional manufacturer, 2024 - present\nOperations Manager, 2019 - 2024\n- Led a 3-plant scheduling consolidation\n\nSKILLS\nLean, S&OP, negotiation, team leadership"
+  },
+  {
+   "id": "p_tom",
+   "name": "Tom B.",
+   "avatar": "TB",
+   "headline": "FP&A Manager at an insurance company",
+   "program": "MS Finance",
+   "stage": "alum",
+   "grad_year": 2021,
+   "path": [
+    {
+     "when": "2021",
+     "what": "MS Finance, Tippie"
+    },
+    {
+     "when": "2021",
+     "what": "Financial Analyst"
+    },
+    {
+     "when": "2023",
+     "what": "Senior Financial Analyst"
+    },
+    {
+     "when": "2025",
+     "what": "FP&A Manager"
+    }
+   ],
+   "biggest_factor": "Learning to present numbers as a decision, not a spreadsheet. Grad career coaching is where that clicked.",
+   "resume_public": false,
+   "resume": ""
+  },
+  {
+   "id": "p_alana",
+   "name": "Alana W.",
+   "avatar": "AW",
+   "headline": "Accounting BBA + Art minor, works for a regional arts nonprofit",
+   "program": "BBA Accounting",
+   "stage": "alum",
+   "grad_year": 2026,
+   "path": [
+    {
+     "when": "2022",
+     "what": "Started undecided in Tippie"
+    },
+    {
+     "when": "2023",
+     "what": "Declared Accounting, added Art minor"
+    },
+    {
+     "when": "2025",
+     "what": "Event Management certificate"
+    },
+    {
+     "when": "2026",
+     "what": "Finance & operations associate, arts nonprofit"
+    }
+   ],
+   "biggest_factor": "Realizing arts organizations desperately need people who can read a budget. I stopped thinking of accounting and art as a choice.",
+   "resume_public": true,
+   "resume": "Alana W. (fictional)\nBBA Accounting, Art minor, Certificate in Event Management, University of Iowa, 2026\n\nEXPERIENCE\nFinance & Operations Associate, regional arts nonprofit, 2026 - present\nBox office lead, campus performing arts venue, 2023 - 2026\n\nSKILLS\nQuickBooks, grant budgeting, event logistics"
+  },
+  {
+   "id": "p_dee",
+   "name": "Deandre H.",
+   "avatar": "DH",
+   "headline": "VP of Operations, logistics company",
+   "program": "Executive MBA",
+   "stage": "alum",
+   "grad_year": 2016,
+   "path": [
+    {
+     "when": "2012",
+     "what": "Regional Operations Manager"
+    },
+    {
+     "when": "2016",
+     "what": "Executive MBA"
+    },
+    {
+     "when": "2018",
+     "what": "Moved to Memphis area for a logistics role"
+    },
+    {
+     "when": "2022",
+     "what": "VP of Operations"
+    }
+   ],
+   "biggest_factor": "The jump to exec was about managing through other managers. Team performance class and finding a peer group fast after relocating.",
+   "resume_public": false,
+   "resume": ""
+  },
+  {
+   "id": "p_kim",
+   "name": "Kim L.",
+   "avatar": "KL",
+   "headline": "Analytics Manager, healthcare",
+   "program": "Iowa MBA (part-time), Business Analytics focus",
+   "stage": "alum",
+   "grad_year": 2024,
+   "path": [
+    {
+     "when": "2020",
+     "what": "Data Analyst"
+    },
+    {
+     "when": "2022",
+     "what": "Started part-time MBA"
+    },
+    {
+     "when": "2024",
+     "what": "Analytics Manager"
+    }
+   ],
+   "biggest_factor": "Python class gave me the skill, the GenAI class gave me the thing my boss's boss wanted to talk about.",
+   "resume_public": true,
+   "resume": "Kim L. (fictional)\nIowa MBA (part-time), Business Analytics, 2024\n\nEXPERIENCE\nAnalytics Manager, healthcare system, 2024 - present\nData Analyst, 2020 - 2024\n\nSKILLS\nPython, SQL, Tableau, LLM prototyping"
+  },
+  {
+   "id": "p_sam",
+   "name": "Sam R.",
+   "avatar": "SR",
+   "headline": "Associate Product Manager (career switcher from teaching)",
+   "program": "Iowa MBA",
+   "stage": "alum",
+   "grad_year": 2025,
+   "path": [
+    {
+     "when": "2019",
+     "what": "High school teacher"
+    },
+    {
+     "when": "2023",
+     "what": "Started Iowa MBA"
+    },
+    {
+     "when": "2025",
+     "what": "Associate Product Manager"
+    }
+   ],
+   "biggest_factor": "Mock interviews. I did five. The first two were humbling.",
+   "resume_public": false,
+   "resume": ""
+  },
+  {
+   "id": "p_noor",
+   "name": "Noor A.",
+   "avatar": "NA",
+   "headline": "Math + CS sophomore who got into a grad deep learning theory course",
+   "program": "BS Mathematics + BS Computer Science",
+   "stage": "enrolled",
+   "grad_year": 2028,
+   "path": [
+    {
+     "when": "Fall 2025",
+     "what": "Linear algebra + Discrete Structures"
+    },
+    {
+     "when": "Spring 2026",
+     "what": "Mathematics of Machine Learning"
+    },
+    {
+     "when": "Fall 2026",
+     "what": "ECE:5240 Deep Learning Theory as a sophomore (instructor permission)"
+    }
+   ],
+   "biggest_factor": "Emailing the professor with a specific reason I was ready, instead of assuming a 5000-level course was off-limits.",
+   "resume_public": true,
+   "resume": "Noor A. (fictional)\nBS Mathematics + BS Computer Science, University of Iowa, expected 2028\n\nCOURSEWORK\nMATH:2700 Linear Algebra, MATH:4840 Mathematics of Machine Learning, CS:2210 Discrete Structures, ECE:5240 Deep Learning Theory (graduate, by permission)\n\nSKILLS\nPython, PyTorch, LaTeX, proof writing"
+  },
+  {
+   "id": "p_ethan",
+   "name": "Ethan M.",
+   "avatar": "EM",
+   "headline": "Investment banking analyst (Finance BBA)",
+   "program": "BBA Finance",
+   "stage": "alum",
+   "grad_year": 2025,
+   "path": [
+    {
+     "when": "2021",
+     "what": "Started in Tippie, pre-business"
+    },
+    {
+     "when": "2022",
+     "what": "Intro to Investment Banking, then Hawkinson Scholar"
+    },
+    {
+     "when": "2024",
+     "what": "Summer analyst internship"
+    },
+    {
+     "when": "2025",
+     "what": "Full-time IB analyst offer"
+    }
+   ],
+   "biggest_factor": "Starting recruiting prep freshman year. In banking the timeline is earlier than anyone tells you.",
+   "resume_public": false,
+   "resume": ""
+  },
+  {
+   "id": "p_rosa",
+   "name": "Rosa G.",
+   "avatar": "RG",
+   "headline": "Data engineer at a fintech (BAIS + CS minor)",
+   "program": "BBA Business Analytics & Information Systems",
+   "stage": "alum",
+   "grad_year": 2025,
+   "path": [
+    {
+     "when": "2022",
+     "what": "Declared BAIS"
+    },
+    {
+     "when": "2024",
+     "what": "Data engineering internship"
+    },
+    {
+     "when": "2025",
+     "what": "Data engineer, fintech"
+    }
+   ],
+   "biggest_factor": "Building one real pipeline end to end in a class and being able to talk about every piece of it in interviews.",
+   "resume_public": true,
+   "resume": "Rosa G. (fictional)\nBBA Business Analytics & Information Systems, CS minor, University of Iowa, 2025\n\nEXPERIENCE\nData Engineer, fintech, 2025 - present\nData Engineering Intern, 2024\n\nSKILLS\nSQL, Python, Airflow, dbt, AWS"
+  },
+  {
+   "id": "p_will",
+   "name": "Will K.",
+   "avatar": "WK",
+   "headline": "ECE senior, embedded ML for wearables",
+   "program": "BSE Electrical Engineering",
+   "stage": "enrolled",
+   "grad_year": 2027,
+   "path": [
+    {
+     "when": "2023",
+     "what": "Started ECE"
+    },
+    {
+     "when": "2025",
+     "what": "Embedded Systems"
+    },
+    {
+     "when": "2026",
+     "what": "Large Language Models (grad course) as a senior"
+    }
+   ],
+   "biggest_factor": "Embedded Systems made me realize I like making ML run on tiny hardware, not just training it.",
+   "resume_public": false,
+   "resume": ""
+  }
+ ],
+ "threads": [
+  {
+   "id": "t01",
+   "item": "CS:2210",
+   "person": "p_jordan",
+   "mode": "interview",
+   "date": "2026-05-10",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "structure_over_time",
+     "t": "Walk me through what a normal week in Discrete Structures actually looked like, start to end of the semester."
+    },
+    {
+     "r": "h",
+     "t": "So the first like third of the semester the homework was brutal, like 15 hours a week, because it's logic and proofs and you're learning how to even write a proof. Then it dropped to maybe 10, and by the end it was like 3 hours a week. Plus one group discussion assignment every week, which was honestly manageable."
+    },
+    {
+     "r": "ai",
+     "dim": "difficulty_hardest_part",
+     "t": "What topics did it actually cover, and which one was the hardest for you?"
+    },
+    {
+     "r": "h",
+     "t": "Logic, then proofs, a lot of induction and contradiction. Then Big O, then counting and combinatorics, probability stuff. Hardest for me was induction early on, because the course description doesn't tell you you're basically learning a new way of writing."
+    },
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "Has any of it shown up since, in later classes, projects, or work?"
+    },
+    {
+     "r": "h",
+     "t": "Later CS classes, yes, constantly. Personal projects and actual work, not yet honestly. Data Structures, which I took the same semester, was way more immediately useful."
+    }
+   ]
+  },
+  {
+   "id": "t02",
+   "item": "CS:2230",
+   "person": "p_jordan",
+   "mode": "rant",
+   "date": "2026-05-10",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "open",
+     "t": "Tell me anything about CS:2230 Data Structures you wish you'd known going in."
+    },
+    {
+     "r": "h",
+     "t": "This is the class that made leetcode-style problems make sense, and honestly made me write better programs in general. It's recommended to take it with or after Discrete, but the only real overlap I noticed was Big O, so don't stress about the ordering."
+    },
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Who would you tell to take it early versus wait?"
+    },
+    {
+     "r": "h",
+     "t": "Take it early if you want internships, it's the interview class. The only reason to wait is if your programming fundamentals are shaky."
+    }
+   ]
+  },
+  {
+   "id": "t03",
+   "item": "@cs_colloquium",
+   "person": "p_jordan",
+   "mode": "interview",
+   "date": "2026-05-11",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "hidden_value",
+     "t": "You mentioned a colloquium led to your research position. How did that actually happen?"
+    },
+    {
+     "r": "h",
+     "t": "I went alone to a talk on learning analytics, honestly half understood it. But I stayed after and asked the speaker one question about their data collection, and they said they needed someone to help build that. Two weeks later I was an RA."
+    },
+    {
+     "r": "ai",
+     "dim": "networking",
+     "t": "How much access to the speaker do undergrads usually get at these?"
+    },
+    {
+     "r": "h",
+     "t": "More than you'd think, because barely any undergrads show up. Like 3 of us in a room of grad students. The ten minutes after the talk is the whole event."
+    }
+   ]
+  },
+  {
+   "id": "t04",
+   "item": "@ug_research",
+   "person": "p_jordan",
+   "mode": "interview",
+   "date": "2026-05-11",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "structure_over_time",
+     "t": "What was your first month as an undergrad RA like compared to now?"
+    },
+    {
+     "r": "h",
+     "t": "First month was busywork, cleaning data, setting up equipment. I almost quit. Around month two they handed me the actual capture pipeline and now I own a piece of the study. So: it starts boring, it doesn't stay boring if you're reliable."
+    },
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "What has it given you that classes didn't?"
+    },
+    {
+     "r": "h",
+     "t": "A real codebase other people depend on, and a professor who can write a specific rec letter."
+    }
+   ]
+  },
+  {
+   "id": "t05",
+   "item": "MGMT:9110",
+   "person": "p_priya",
+   "mode": "interview",
+   "date": "2026-09-02",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "Did Dynamics of Negotiation change anything at work, concretely?"
+    },
+    {
+     "r": "h",
+     "t": "Yes, immediately. I renegotiated a freight contract the month after the class using the prep sheet we practiced. Saved real money and that's what got me noticed for the director role."
+    },
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "What did the workload look like with a full-time job?"
+    },
+    {
+     "r": "h",
+     "t": "Maybe 5 or 6 hours a week, but it's live role-plays, so you can't skip prep, your partner is counting on you."
+    },
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Who should not take it?"
+    },
+    {
+     "r": "h",
+     "t": "If you hate being on camera and talking, it will be uncomfortable. Take it anyway honestly."
+    }
+   ]
+  },
+  {
+   "id": "t06",
+   "item": "MBA:8240",
+   "person": "p_priya",
+   "mode": "template",
+   "date": "2026-09-02",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "Workload, honestly?"
+    },
+    {
+     "r": "h",
+     "t": "8ish hours a week. Heavier when the simulation runs."
+    },
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Who is it for?"
+    },
+    {
+     "r": "h",
+     "t": "If you already work in ops, a lot is review, but the supply chain simulation is worth it. If you don't work in ops, this is where you learn how a business actually physically works."
+    },
+    {
+     "r": "ai",
+     "dim": "hidden_value",
+     "t": "Anything not in the syllabus that mattered?"
+    },
+    {
+     "r": "h",
+     "t": "Your classmates. Half my cohort were ops people at other companies and comparing notes was worth as much as lectures."
+    }
+   ]
+  },
+  {
+   "id": "t07",
+   "item": "@iclubs",
+   "person": "p_priya",
+   "mode": "rant",
+   "date": "2026-09-03",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "open",
+     "t": "Tell me about I-Clubs, whatever comes to mind."
+    },
+    {
+     "r": "h",
+     "t": "When I moved to Kansas City I knew nobody. I went to the I-Club watch party mostly for football, and met two Tippie alums in ops roles. One of them referred me internally a year later. It's not a formal networking event, which is exactly why it works, people actually talk."
+    },
+    {
+     "r": "ai",
+     "dim": "networking",
+     "t": "What would you tell someone who just relocated?"
+    },
+    {
+     "r": "h",
+     "t": "Go in your first month. Tell people you just moved. Iowa people adopt you."
+    }
+   ]
+  },
+  {
+   "id": "t08",
+   "item": "MBA:8180",
+   "person": "p_tom",
+   "mode": "interview",
+   "date": "2026-08-20",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "difficulty_hardest_part",
+     "t": "What was the hardest part of Managerial Finance?"
+    },
+    {
+     "r": "h",
+     "t": "Valuation weeks. If you haven't built a DCF before, the jump is steep. I had, so it was mostly fine."
+    },
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "Has it helped you move up?"
+    },
+    {
+     "r": "h",
+     "t": "It's table stakes in FP&A. It didn't get me promoted, but not having it would have kept me from being taken seriously in capital planning meetings."
+    },
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "Hours per week?"
+    },
+    {
+     "r": "h",
+     "t": "About 9, steady all semester."
+    }
+   ]
+  },
+  {
+   "id": "t09",
+   "item": "@gcs_coaching",
+   "person": "p_tom",
+   "mode": "interview",
+   "date": "2026-08-21",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "You said grad career coaching is where things clicked. What happened?"
+    },
+    {
+     "r": "h",
+     "t": "My coach made me pitch my variance analysis like I was talking to a CFO. Two sentences, decision first. I was terrible at it. I practiced that for a month and it's literally how I run my team's reviews now."
+    },
+    {
+     "r": "ai",
+     "dim": "hidden_value",
+     "t": "Do alumni still have access?"
+    },
+    {
+     "r": "h",
+     "t": "I used it after graduating, when I was going for manager. Most people don't know you can."
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "item": "@career_connect",
+   "person": "p_tom",
+   "mode": "rant",
+   "date": "2026-08-22",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "open",
+     "t": "What's a Career Connect Call actually like?"
+    },
+    {
+     "r": "h",
+     "t": "It's a lunch-hour Zoom. Low effort, which is the point. I've done three. One was meh, two had alumni in finance leadership I followed up with on LinkedIn. Worth it for 45 minutes on a weekday."
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "item": "ACCT:2100",
+   "person": "p_alana",
+   "mode": "interview",
+   "date": "2026-06-01",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Did intro accounting help you decide your major?"
+    },
+    {
+     "r": "h",
+     "t": "It did, but backwards. I expected to hate it and instead liked that everything balances. It's a puzzle. If you like art and you like order, it's not as weird a combination as people act like."
+    },
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "Workload?"
+    },
+    {
+     "r": "h",
+     "t": "4 to 6 hours a week. Keep up with the homework, it snowballs if you don't."
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "item": "ENTR:4510",
+   "person": "p_alana",
+   "mode": "interview",
+   "date": "2026-06-01",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "What did the Arts Leadership Seminar lead to?"
+    },
+    {
+     "r": "h",
+     "t": "This is where it clicked that arts organizations need finance people. Guest speakers ran galleries and festivals and every one of them said they couldn't find anyone who understood both sides. I got my current job from a speaker in that class."
+    },
+    {
+     "r": "ai",
+     "dim": "networking",
+     "t": "How accessible were the guest speakers?"
+    },
+    {
+     "r": "h",
+     "t": "Very. Small class. They gave out emails and actually replied."
+    }
+   ]
+  },
+  {
+   "id": "t13",
+   "item": "@event_mgmt_cert",
+   "person": "p_alana",
+   "mode": "template",
+   "date": "2026-06-02",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Who is this certificate for?"
+    },
+    {
+     "r": "h",
+     "t": "Anyone who wants to work in arts, sports, or venues and wants a credential that's practical. It pairs with accounting better than you'd expect, events are basically budgets with deadlines."
+    },
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "Was it a lot on top of a major?"
+    },
+    {
+     "r": "h",
+     "t": "Manageable, it overlaps with electives if you plan it in your second year."
+    }
+   ]
+  },
+  {
+   "id": "t14",
+   "item": "MGMT:9220",
+   "person": "p_dee",
+   "mode": "interview",
+   "date": "2026-07-14",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "How did Maximizing Team Performance relate to becoming an exec?"
+    },
+    {
+     "r": "h",
+     "t": "As a regional manager I managed people. As a VP I manage managers. This class is the only place I got tools for the second one: diagnosing why a team underperforms instead of blaming individuals."
+    },
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Who should take it?"
+    },
+    {
+     "r": "h",
+     "t": "Anyone about to have managers reporting to them. If you're individual contributor, wait."
+    }
+   ]
+  },
+  {
+   "id": "t15",
+   "item": "@iclubs",
+   "person": "p_dee",
+   "mode": "interview",
+   "date": "2026-07-15",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "networking",
+     "t": "You relocated to the Memphis area. How did you build a network there?"
+    },
+    {
+     "r": "h",
+     "t": "Honestly the I-Club list was my starting point. I looked up the closest network to me. Small, but it got me into a couple of rooms, and from there I joined a local operations leaders roundtable. Don't expect the I-Club to be the network, use it as the door."
+    },
+    {
+     "r": "ai",
+     "dim": "hidden_value",
+     "t": "What would you do differently?"
+    },
+    {
+     "r": "h",
+     "t": "Start in month one, not month six. And ask every alum you meet who else you should meet."
+    }
+   ]
+  },
+  {
+   "id": "t16",
+   "item": "MBA:9130",
+   "person": "p_dee",
+   "mode": "rant",
+   "date": "2026-07-15",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "open",
+     "t": "Tell me about Leadership Communication & Story."
+    },
+    {
+     "r": "h",
+     "t": "Sounds soft, isn't. Executives get judged on how they explain a decision to a room. I rewrote how I present quarterly reviews after this. Lots of practice presenting and getting critiqued, so be ready to be uncomfortable."
+    }
+   ]
+  },
+  {
+   "id": "t17",
+   "item": "BAIS:6040",
+   "person": "p_kim",
+   "mode": "interview",
+   "date": "2026-10-01",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "How heavy is Data Programming in Python if you're working full time?"
+    },
+    {
+     "r": "h",
+     "t": "If you've never coded, 10+ hours a week at the start. It eases up. If you know SQL already you'll be fine."
+    },
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "Did it change your job?"
+    },
+    {
+     "r": "h",
+     "t": "I automated a weekly report the second month. That alone justified the class to my manager."
+    }
+   ]
+  },
+  {
+   "id": "t18",
+   "item": "BAIS:6260",
+   "person": "p_kim",
+   "mode": "interview",
+   "date": "2026-10-01",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "What has the Generative AI class done for you?"
+    },
+    {
+     "r": "h",
+     "t": "It made me the AI person on my team, which got me in meetings with leadership. Practical, project-based. You build things, not just read about them."
+    },
+    {
+     "r": "ai",
+     "dim": "prep_prereqs",
+     "t": "What should someone know before taking it?"
+    },
+    {
+     "r": "h",
+     "t": "Basic Python. Take 6040 first or it'll hurt."
+    }
+   ]
+  },
+  {
+   "id": "t19",
+   "item": "@mock_interviews",
+   "person": "p_sam",
+   "mode": "rant",
+   "date": "2026-04-02",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "open",
+     "t": "Tell me about mock interviews."
+    },
+    {
+     "r": "h",
+     "t": "I was switching from teaching to product. I did five mock interviews. The first two were humbling, I rambled. By the fifth my answers were tight. I genuinely think that's why I got the APM offer."
+    },
+    {
+     "r": "ai",
+     "dim": "hidden_value",
+     "t": "Any tip people miss?"
+    },
+    {
+     "r": "h",
+     "t": "Book them before you think you're ready. Being not ready is the point."
+    }
+   ]
+  },
+  {
+   "id": "t20",
+   "item": "ENTR:9100",
+   "person": "p_sam",
+   "mode": "interview",
+   "date": "2026-04-03",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "career_impact",
+     "t": "How did Entrepreneurship and Innovation help a move into product?"
+    },
+    {
+     "r": "h",
+     "t": "Customer discovery. We interviewed real customers for a semester project and that's exactly what I talk about in PM interviews. It gave me a story when I had no product experience."
+    },
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "Workload?"
+    },
+    {
+     "r": "h",
+     "t": "Front-loaded team project, about 6 hours a week, more near the pitch."
+    }
+   ]
+  },
+  {
+   "id": "t21",
+   "item": "MGMT:9120",
+   "person": "p_priya",
+   "mode": "interview",
+   "date": "2026-09-04",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "who_should_take",
+     "t": "Who is Leadership and Personal Development for?"
+    },
+    {
+     "r": "h",
+     "t": "People who think they're already a good leader. The assessments were humbling. Great early in the program because it frames everything after."
+    },
+    {
+     "r": "ai",
+     "dim": "workload",
+     "t": "Time per week?"
+    },
+    {
+     "r": "h",
+     "t": "Light, 3 or 4 hours, mostly reflection writing."
+    }
+   ]
+  },
+  {
+   "id": "t22",
+   "item": "@knapp",
+   "person": "p_sam",
+   "mode": "rant",
+   "date": "2026-04-05",
+   "turns": [
+    {
+     "r": "ai",
+     "dim": "open",
+     "t": "What's the Knapp Speaker Series like?"
+    },
+    {
+     "r": "h",
+     "t": "Big-name speakers. The talk is good but the value for me was the reception after, small groups, and Tippie staff will introduce you if you ask."
+    }
+   ]
+  },
+  {
+   "id": "t30",
+   "item": "ECE:5240",
+   "person": "p_noor",
+   "mode": "interview",
+   "date": "2026-11-10",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "How did you end up in a 5000-level ECE course as a sophomore?",
+     "dim": "hidden_value"
+    },
+    {
+     "r": "h",
+     "t": "Honestly I just asked. I emailed the professor before registration, said I'd done linear algebra and the math of ML course, attached a proof I'd written, and asked if I could have permission. He said yes as long as I was okay being the only undergrad. Nobody tells you that's even an option."
+    },
+    {
+     "r": "ai",
+     "t": "What did you need to know going in?",
+     "dim": "prep_prereqs"
+    },
+    {
+     "r": "h",
+     "t": "Linear algebra cold, and comfort reading proofs. Probability helps a lot. The math of ML course was the perfect bridge. If you haven't done proofs, Discrete Structures at least."
+    },
+    {
+     "r": "ai",
+     "t": "What's the workload like compared to undergrad courses?",
+     "dim": "workload"
+    },
+    {
+     "r": "h",
+     "t": "Fewer assignments but each one is like 8 to 12 hours of thinking. Lots of reading papers. The first month I felt behind, by midterm I was fine."
+    },
+    {
+     "r": "ai",
+     "t": "Has it led to anything yet?",
+     "dim": "career_impact"
+    },
+    {
+     "r": "h",
+     "t": "The professor invited me to a reading group, and that's turning into a research project. Being the only undergrad made me memorable."
+    }
+   ]
+  },
+  {
+   "id": "t31",
+   "item": "MATH:4840",
+   "person": "p_noor",
+   "mode": "rant",
+   "date": "2026-11-10",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "Tell me anything about Mathematics of Machine Learning.",
+     "dim": "open"
+    },
+    {
+     "r": "h",
+     "t": "This is the class that makes ML stop being magic. Regression, matrix stuff, optimization, why neural nets train at all. It's what made me confident enough to ask into the grad deep learning theory course."
+    },
+    {
+     "r": "ai",
+     "t": "Who should take it?",
+     "dim": "who_should_take"
+    },
+    {
+     "r": "h",
+     "t": "Anyone who wants to do ML seriously and actually likes math. If you only want to use libraries, it's more than you need."
+    }
+   ]
+  },
+  {
+   "id": "t32",
+   "item": "FIN:1500",
+   "person": "p_ethan",
+   "mode": "interview",
+   "date": "2026-10-20",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "What did Intro to Investment Banking actually do for you?",
+     "dim": "career_impact"
+    },
+    {
+     "r": "h",
+     "t": "It's low-stakes, but it's how you find out about Hawkinson and the recruiting timeline. I learned in freshman fall that summer internships get decided like a year and a half early. That changed everything."
+    },
+    {
+     "r": "ai",
+     "t": "Who should take it?",
+     "dim": "who_should_take"
+    },
+    {
+     "r": "h",
+     "t": "Every freshman even slightly curious about banking. It's the cheapest way to find out if you want this life."
+    }
+   ]
+  },
+  {
+   "id": "t33",
+   "item": "FIN:3500",
+   "person": "p_ethan",
+   "mode": "interview",
+   "date": "2026-10-20",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "What's the Hawkinson Scholar Seminar like?",
+     "dim": "structure_over_time"
+    },
+    {
+     "r": "h",
+     "t": "Intense. Resume reviews, mock interviews, cases. Early on it's technicals drilling, later it's networking prep and alumni calls. The alumni network is the whole point."
+    },
+    {
+     "r": "ai",
+     "t": "How much time did it take?",
+     "dim": "workload"
+    },
+    {
+     "r": "h",
+     "t": "Maybe 5 hours a week of seminar plus however much you put into networking, which during recruiting season was another 10."
+    },
+    {
+     "r": "ai",
+     "t": "Anything you'd tell your freshman self?",
+     "dim": "hidden_value"
+    },
+    {
+     "r": "h",
+     "t": "Start coffee chats before you think you're ready. Alumni from Iowa actually pick up the phone."
+    }
+   ]
+  },
+  {
+   "id": "t34",
+   "item": "FIN:4045",
+   "person": "p_ethan",
+   "mode": "template",
+   "date": "2026-10-21",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "Who is this for?",
+     "dim": "who_should_take"
+    },
+    {
+     "r": "h",
+     "t": "Anyone going for banking, PE, or equity research interviews. Modeling tests are real and this is exactly that."
+    },
+    {
+     "r": "ai",
+     "t": "Workload?",
+     "dim": "workload"
+    },
+    {
+     "r": "h",
+     "t": "One credit but do every model yourself, don't just watch."
+    }
+   ]
+  },
+  {
+   "id": "t35",
+   "item": "BAIS:3600",
+   "person": "p_rosa",
+   "mode": "interview",
+   "date": "2026-09-15",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "Did Data Engineering help you get your job?",
+     "dim": "career_impact"
+    },
+    {
+     "r": "h",
+     "t": "Directly. I built a pipeline into a warehouse and a dashboard on top, and every interviewer asked about it. That project is basically my job description now."
+    },
+    {
+     "r": "ai",
+     "t": "How hard was it?",
+     "dim": "difficulty_hardest_part"
+    },
+    {
+     "r": "h",
+     "t": "Hardest part was debugging the pipeline when data came in messy. Which is also the actual job, so good practice."
+    }
+   ]
+  },
+  {
+   "id": "t36",
+   "item": "BAIS:3500",
+   "person": "p_rosa",
+   "mode": "rant",
+   "date": "2026-09-15",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "Tell me about Data Mining.",
+     "dim": "open"
+    },
+    {
+     "r": "h",
+     "t": "Good first real ML class for business majors. Classification, regression, clustering on business data. Less math than the CS version, more about choosing the right model and explaining it to a manager."
+    }
+   ]
+  },
+  {
+   "id": "t37",
+   "item": "CS:3420",
+   "person": "p_rosa",
+   "mode": "interview",
+   "date": "2026-09-16",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "Was Intro to AI worth taking as a business major with a CS minor?",
+     "dim": "who_should_take"
+    },
+    {
+     "r": "h",
+     "t": "Yes, but it's broader than people expect. Search, logic, constraint satisfaction, then machine learning at the end. If you only want ML, it's a slow start. If you want to understand what AI means beyond chatbots, it's great."
+    }
+   ]
+  },
+  {
+   "id": "t38",
+   "item": "ECE:3360",
+   "person": "p_will",
+   "mode": "interview",
+   "date": "2026-08-30",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "What's Embedded Systems really like week to week?",
+     "dim": "workload"
+    },
+    {
+     "r": "h",
+     "t": "Lab heavy. 10 hours a week easily, more when your microcontroller code just won't work. You spend a lot of time with the debugger."
+    },
+    {
+     "r": "ai",
+     "t": "Did it lead anywhere?",
+     "dim": "career_impact"
+    },
+    {
+     "r": "h",
+     "t": "Yes, it's why I'm doing ML on wearables. Running a model on a tiny chip is a completely different problem from training it."
+    }
+   ]
+  },
+  {
+   "id": "t39",
+   "item": "ECE:5250",
+   "person": "p_will",
+   "mode": "rant",
+   "date": "2026-11-05",
+   "turns": [
+    {
+     "r": "ai",
+     "t": "Tell me about the Large Language Models course.",
+     "dim": "open"
+    },
+    {
+     "r": "h",
+     "t": "Took it as a senior. Transformers from the ground up, then you build and fine-tune small models. Super relevant right now. Know PyTorch before you go in or the first projects hurt."
+    }
+   ]
+  }
+ ]
+}

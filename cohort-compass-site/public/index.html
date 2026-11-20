@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cohort Compass: what it was actually like</title>
+<meta name="description" content="Cohort Compass collects what University of Iowa courses, events, and opportunities were actually like, from the people who did them, and turns it into advice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23111'/%3E%3Cpath d='M16 5l4 11-4 11-4-11z' fill='%23FFCD00'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#/"><span class="mark" aria-hidden="true"></span>Cohort<b>Compass</b></a>
+  <form class="search" id="topSearch" role="search"><input id="q" placeholder="Search courses, events, clubs, labs…" aria-label="Search"></form>
+  <nav>
+    <a href="#/compass">Ask the Compass</a>
+    <a href="#/contribute" class="btn-gold">Share yours</a>
+    <a href="#/staff" class="muted devonly">Staff queue</a>
+  </nav>
+</header>
+<div class="demo-bar">
+  <span>Demo: sample contributors are fictional. All courses and events are real UIowa listings.</span>
+  <label class="switch devonly"><input type="checkbox" id="gateToggle"> share-to-unlock gate</label>
+  <span id="aiStatus" class="pill devonly">AI: …</span><a href="#/user" class="pill devonly" style="text-decoration:none">exit presenter mode</a>
+</div>
+<main id="view" tabindex="-1"></main>
+<button id="hoodBtn" class="hood-btn devonly" aria-expanded="false">Under the hood <span id="hoodCount">0</span></button>
+<aside id="hood" class="hood" hidden>
+  <div class="hood-head"><b>Under the hood</b><button id="hoodClose" aria-label="Close">×</button></div>
+  <p class="small">Every AI call this page makes: which task, which model, latency, whether it fell back to scripted logic, and how many invented citations the grounding check removed.</p>
+  <div id="hoodList"></div>
+</aside>
+<script type="module" src="app.js"></script>
+</body>
+</html>

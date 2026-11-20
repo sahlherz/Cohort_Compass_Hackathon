@@ -1,0 +1,4026 @@
+[
+ {
+  "id": "ACCT:9020",
+  "type": "course",
+  "title": "ACCT:9020 Strategic Cost Analysis",
+  "short": "Strategic Cost Analysis",
+  "dept": "Accounting",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "MBA:8140 Corporate Financial Reporting",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "accounting",
+   "cost",
+   "decision making"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ACCT:9040",
+  "type": "course",
+  "title": "ACCT:9040 Financial Statement Analysis and Forecasting",
+  "short": "Financial Statement Analysis and Forecasting",
+  "dept": "Accounting",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "MBA:8140 Corporate Financial Reporting",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "accounting",
+   "finance",
+   "valuation",
+   "forecasting"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6040",
+  "type": "course",
+  "title": "BAIS:6040 Data Programming in Python",
+  "short": "Data Programming in Python",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "python",
+   "analytics",
+   "programming"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6050",
+  "type": "course",
+  "title": "BAIS:6050 Data Management",
+  "short": "Data Management",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "sql",
+   "databases",
+   "analytics"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6070",
+  "type": "course",
+  "title": "BAIS:6070 Data Science",
+  "short": "Data Science",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026",
+    "Summer 2026"
+   ],
+   "prereqs": "BAIS:9100 (or MBA:8150), and BAIS:6040",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "python",
+   "machine learning",
+   "analytics",
+   "ai"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6140",
+  "type": "course",
+  "title": "BAIS:6140 Visual Analytics",
+  "short": "Visual Analytics",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "tableau",
+   "visualization",
+   "analytics"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6250",
+  "type": "course",
+  "title": "BAIS:6250 Applied Deep Learning",
+  "short": "Applied Deep Learning",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "BAIS:6040 and BAIS:6070",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "deep learning",
+   "ai",
+   "python"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6260",
+  "type": "course",
+  "title": "BAIS:6260 Generative Artificial Intelligence",
+  "short": "Generative Artificial Intelligence",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "(MBA:8150 or BAIS:9100) and BAIS:6040 and BAIS:6070; coreq BAIS:6250",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "genai",
+   "ai",
+   "llm"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:6280",
+  "type": "course",
+  "title": "BAIS:6280 Cybersecurity",
+  "short": "Cybersecurity",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "security",
+   "it"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:9110",
+  "type": "course",
+  "title": "BAIS:9110 Advanced Analytics",
+  "short": "Advanced Analytics",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Summer 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "MBA:8150 or BAIS:9100",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "analytics",
+   "optimization",
+   "modeling"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "BAIS:9140",
+  "type": "course",
+  "title": "BAIS:9140 Agile Project Management",
+  "short": "Agile Project Management",
+  "dept": "Business Analytics",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026",
+    "Summer 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "project management",
+   "agile",
+   "scrum"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ENTR:9100",
+  "type": "course",
+  "title": "ENTR:9100 Entrepreneurship and Innovation",
+  "short": "Entrepreneurship and Innovation",
+  "dept": "Entrepreneurship",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "entrepreneurship",
+   "innovation"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ENTR:9200",
+  "type": "course",
+  "title": "ENTR:9200 Entrepreneurial Finance",
+  "short": "Entrepreneurial Finance",
+  "dept": "Entrepreneurship",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "entrepreneurship",
+   "finance",
+   "venture"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ENTR:9450",
+  "type": "course",
+  "title": "ENTR:9450 Strategic Management of Technology and Innovation",
+  "short": "Strategic Management of Technology and Innovation",
+  "dept": "Entrepreneurship",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "innovation",
+   "strategy",
+   "technology"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9130",
+  "type": "course",
+  "title": "FIN:9130 Corporate Risk Management and Insurance",
+  "short": "Corporate Risk Management and Insurance",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "risk",
+   "insurance"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9140",
+  "type": "course",
+  "title": "FIN:9140 Enterprise Risk Management",
+  "short": "Enterprise Risk Management",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "risk"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9200",
+  "type": "course",
+  "title": "FIN:9200 Portfolio Management",
+  "short": "Portfolio Management",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "MBA:8180 Managerial Finance",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "investments",
+   "portfolio"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9210",
+  "type": "course",
+  "title": "FIN:9210 Derivatives",
+  "short": "Derivatives",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "MBA:8180 Managerial Finance; FIN:9200 Portfolio Management",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "derivatives",
+   "options"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9230",
+  "type": "course",
+  "title": "FIN:9230 Real Estate Finance and Investments",
+  "short": "Real Estate Finance and Investments",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "MBA:8180",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "real estate"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9300",
+  "type": "course",
+  "title": "FIN:9300 Corporate Finance",
+  "short": "Corporate Finance",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "MBA:8180",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "corporate finance",
+   "valuation"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9310",
+  "type": "course",
+  "title": "FIN:9310 Corporate Financial Strategy",
+  "short": "Corporate Financial Strategy",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "strategy",
+   "leadership"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "FIN:9350",
+  "type": "course",
+  "title": "FIN:9350 Wealth Management",
+  "short": "Wealth Management",
+  "dept": "Finance",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "MBA:8180",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "wealth"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8110",
+  "type": "course",
+  "title": "MBA:8110 Marketing Management",
+  "short": "Marketing Management",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "marketing"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8120",
+  "type": "course",
+  "title": "MBA:8120 Management in Organizations",
+  "short": "Management in Organizations",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "management",
+   "leadership",
+   "organizations"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8130",
+  "type": "course",
+  "title": "MBA:8130 Business Communication",
+  "short": "Business Communication",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "communication"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8140",
+  "type": "course",
+  "title": "MBA:8140 Corporate Financial Reporting",
+  "short": "Corporate Financial Reporting",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026",
+    "Summer 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "accounting",
+   "financial statements"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8150",
+  "type": "course",
+  "title": "MBA:8150 Data & Decisions",
+  "short": "Data & Decisions",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Summer 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "statistics",
+   "analytics",
+   "excel",
+   "regression"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8160",
+  "type": "course",
+  "title": "MBA:8160 Managerial Economics",
+  "short": "Managerial Economics",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Summer 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "economics"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8180",
+  "type": "course",
+  "title": "MBA:8180 Managerial Finance",
+  "short": "Managerial Finance",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026",
+    "Summer 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "finance",
+   "valuation",
+   "capital budgeting"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8240",
+  "type": "course",
+  "title": "MBA:8240 Operations and Supply Chain Management",
+  "short": "Operations and Supply Chain Management",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "operations",
+   "supply chain"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8300",
+  "type": "course",
+  "title": "MBA:8300 Foundations in Strategy",
+  "short": "Foundations in Strategy",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "strategy"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:8320",
+  "type": "course",
+  "title": "MBA:8320 Strategic Business Growth",
+  "short": "Strategic Business Growth",
+  "dept": "MBA Core",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Summer 2026"
+   ],
+   "prereqs": "Five MBA core courses including MBA:8110",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "strategy",
+   "growth",
+   "innovation"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:9130",
+  "type": "course",
+  "title": "MBA:9130 Leadership Communication & Story",
+  "short": "Leadership Communication & Story",
+  "dept": "MBA",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026",
+    "Summer 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "communication",
+   "leadership",
+   "storytelling"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MBA:9300",
+  "type": "course",
+  "title": "MBA:9300 Strategy in Action",
+  "short": "Strategy in Action",
+  "dept": "MBA",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "MBA:8300 Foundations in Strategy plus four core courses",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "strategy",
+   "capstone"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9110",
+  "type": "course",
+  "title": "MGMT:9110 Dynamics of Negotiation",
+  "short": "Dynamics of Negotiation",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "negotiation",
+   "leadership"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9120",
+  "type": "course",
+  "title": "MGMT:9120 Leadership and Personal Development",
+  "short": "Leadership and Personal Development",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "leadership",
+   "personal development",
+   "management"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9170",
+  "type": "course",
+  "title": "MGMT:9170 HR Analytics",
+  "short": "HR Analytics",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025"
+   ],
+   "prereqs": "Data and Decisions (MBA:8150 / BAIS:9100)",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "hr",
+   "analytics"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9220",
+  "type": "course",
+  "title": "MGMT:9220 Maximizing Team Performance",
+  "short": "Maximizing Team Performance",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "teams",
+   "leadership",
+   "project management"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9230",
+  "type": "course",
+  "title": "MGMT:9230 Managing and Preventing Conflict",
+  "short": "Managing and Preventing Conflict",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Fall 2025",
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "conflict",
+   "leadership"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9240",
+  "type": "course",
+  "title": "MGMT:9240 Inclusive Leadership",
+  "short": "Inclusive Leadership",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "leadership"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MGMT:9250",
+  "type": "course",
+  "title": "MGMT:9250 Managing Employee Performance",
+  "short": "Managing Employee Performance",
+  "dept": "Management",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "management",
+   "hr",
+   "leadership"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MKTG:9015",
+  "type": "course",
+  "title": "MKTG:9015 Social Media Marketing",
+  "short": "Social Media Marketing",
+  "dept": "Marketing",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "marketing",
+   "social media"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MKTG:9320",
+  "type": "course",
+  "title": "MKTG:9320 Strategic Brand Positioning",
+  "short": "Strategic Brand Positioning",
+  "dept": "Marketing",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "Principles of Marketing",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "marketing",
+   "brand"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "MKTG:9370",
+  "type": "course",
+  "title": "MKTG:9370 Customer Experience",
+  "short": "Customer Experience",
+  "dept": "Marketing",
+  "level": "graduate",
+  "official": {
+   "terms": [
+    "Spring 2026"
+   ],
+   "prereqs": "None listed",
+   "credits": null,
+   "source": "syllabus"
+  },
+  "tags": [
+   "marketing",
+   "customer experience"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ACCT:2100",
+  "type": "course",
+  "title": "ACCT:2100 Introduction to Financial Accounting",
+  "short": "Introduction to Financial Accounting",
+  "dept": "Accounting",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "3 s.h.",
+   "source": "catalog"
+  },
+  "tags": [
+   "accounting",
+   "financial statements"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ACCT:3020",
+  "type": "course",
+  "title": "ACCT:3020 Financial Accounting and Reporting",
+  "short": "Financial Accounting and Reporting",
+  "dept": "Accounting",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "ACCT:2100",
+   "credits": "3 s.h.",
+   "source": "catalog"
+  },
+  "tags": [
+   "accounting"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ENTR:2000",
+  "type": "course",
+  "title": "ENTR:2000 Entrepreneurship and Innovation",
+  "short": "Entrepreneurship and Innovation",
+  "dept": "Entrepreneurship",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "3 s.h.",
+   "source": "catalog"
+  },
+  "tags": [
+   "entrepreneurship",
+   "innovation"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ENTR:4510",
+  "type": "course",
+  "title": "ENTR:4510 Arts Leadership Seminar",
+  "short": "Arts Leadership Seminar",
+  "dept": "Entrepreneurship",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "3 s.h.",
+   "source": "catalog"
+  },
+  "tags": [
+   "arts",
+   "entrepreneurship",
+   "leadership"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "THTR:3510",
+  "type": "course",
+  "title": "THTR:3510 Introduction to Arts Management",
+  "short": "Introduction to Arts Management",
+  "dept": "Theatre Arts",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "3 s.h.",
+   "source": "catalog"
+  },
+  "tags": [
+   "arts",
+   "management"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "ARTH:1060",
+  "type": "course",
+  "title": "ARTH:1060 From Mona Lisa to Modernism: Survey of Western Art II",
+  "short": "From Mona Lisa to Modernism: Survey of Western Art II",
+  "dept": "Art History",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "3 s.h.",
+   "source": "catalog"
+  },
+  "tags": [
+   "arts",
+   "art history"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses"
+ },
+ {
+  "id": "CS:2210",
+  "type": "course",
+  "title": "CS:2210 Discrete Structures",
+  "short": "Discrete Structures",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "3 s.h.",
+   "source": "catalog",
+   "description": "Logic, proofs, induction, graphs, trees, and counting methods used in computer science."
+  },
+  "tags": [
+   "cs",
+   "proofs",
+   "math"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2230",
+  "type": "course",
+  "title": "CS:2230 Computer Science II: Data Structures",
+  "short": "Computer Science II: Data Structures",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "terms": [],
+   "prereqs": "See catalog",
+   "credits": "4 s.h.",
+   "source": "catalog",
+   "description": "Implements linked lists, stacks, queues, hash tables, and trees, with complexity analysis and recursion."
+  },
+  "tags": [
+   "cs",
+   "programming"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "evt_0001",
+  "type": "speaker",
+  "title": "Knapp Speaker Series featuring George Rosenthal (Tippie GPP)",
+  "short": "Knapp Speaker Series featuring George Rosenthal (Tippie GPP)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Keynote on applying AI in practice, including AI agents for productivity and automation. Registration required.",
+   "start": "2026-11-19T18:00:00-06:00",
+   "where": "Online via Zoom"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "ai",
+   "alumni",
+   "analytics",
+   "certificate",
+   "enrolled",
+   "heading_out",
+   "leadership",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0002",
+  "type": "networking",
+  "title": "Tippie Graduate Career Services: November Career Connect Call",
+  "short": "Tippie Graduate Career Services: November Career Connect Call",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Monthly one-hour networking call for Iowa MBA, part-time MBA in Business Analytics, part-time Master of Finance and certificate students. No RSVP required.",
+   "start": "2026-11-20T12:00:00-06:00",
+   "where": "Online via Zoom"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "alumni",
+   "analytics",
+   "certificate",
+   "enrolled",
+   "finance",
+   "heading_out",
+   "leadership",
+   "networking",
+   "project_management",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0003",
+  "type": "networking",
+  "title": "UI Center for Advancement: Illinois Football Hawkeye Huddle (Champaign, IL)",
+  "short": "UI Center for Advancement: Illinois Football Hawkeye Huddle (Champaign, IL)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Free pregame rally before Iowa vs. Illinois. Registration required.",
+   "start": "2026-11-21T09:00:00-06:00",
+   "where": "1900 1st St, Champaign, IL 61820"
+  },
+  "tags": [
+   "alumni",
+   "networking"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0004",
+  "type": "workshop",
+  "title": "Tippie Applied AI Community of Practice: December Meeting",
+  "short": "Tippie Applied AI Community of Practice: December Meeting",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Monthly lab meeting on how AI can solve business problems.",
+   "start": "2026-12-11T12:00:00-06:00",
+   "where": "Online via Teams"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "ai",
+   "alumni",
+   "analytics",
+   "certificate",
+   "enrolled",
+   "heading_out",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0005",
+  "type": "networking",
+  "title": "Tippie Graduate Career Services: December Career Connect Call",
+  "short": "Tippie Graduate Career Services: December Career Connect Call",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Monthly networking call for Graduate & Professional Programs students. No RSVP required.",
+   "start": "2026-12-18T12:00:00-06:00",
+   "where": "Online via Zoom"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "alumni",
+   "certificate",
+   "enrolled",
+   "finance",
+   "heading_out",
+   "leadership",
+   "networking",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0006",
+  "type": "networking",
+  "title": "Tippie Graduate & Professional Programs Basketball Bash",
+  "short": "Tippie Graduate & Professional Programs Basketball Bash",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Family-friendly pregame reception before Iowa vs. Minnesota men's basketball (game ticket required).",
+   "start": "2027-02-27T11:30:00-06:00",
+   "where": "Carver-Hawkeye Arena, Iowa City"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "alumni",
+   "certificate",
+   "enrolled",
+   "networking",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0007",
+  "type": "networking",
+  "title": "Hawkeye Day 2027",
+  "short": "Hawkeye Day 2027",
+  "dept": "Events & resources",
+  "official": {
+   "description": "A day for alumni, friends, fans and students to connect and explore campus.",
+   "start": "2027-04-24T08:00:00-05:00",
+   "where": "Iowa City"
+  },
+  "tags": [
+   "alumni",
+   "enrolled",
+   "further_education",
+   "networking"
+  ],
+  "url": "https://apps.biz.uiowa.edu/EventsCalendar/Calendar"
+ },
+ {
+  "id": "evt_0008",
+  "type": "trek",
+  "title": "Arts, Media, and Entertainment Career Trek (Chicago)",
+  "short": "Arts, Media, and Entertainment Career Trek (Chicago)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Overnight Pomerantz Career Center trek to arts, media and entertainment employers in Chicago.",
+   "start": "2026-12-03",
+   "where": "Overnight trek to Chicago, IL"
+  },
+  "tags": [
+   "BBA",
+   "arts",
+   "enrolled",
+   "networking",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://careers.uiowa.edu/career-treks"
+ },
+ {
+  "id": "evt_0009",
+  "type": "resource",
+  "title": "Mock Interviews (Pomerantz Career Center)",
+  "short": "Mock Interviews (Pomerantz Career Center)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Practice interviews with feedback; virtual and in-person options, offered in multi-day blocks each semester.",
+   "start": null,
+   "where": "https://careers.uiowa.edu/mocks"
+  },
+  "tags": [
+   "BBA",
+   "accounting",
+   "enrolled",
+   "finance",
+   "heading_out",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://careers.uiowa.edu/mocks"
+ },
+ {
+  "id": "evt_0010",
+  "type": "office",
+  "title": "Pomerantz Career Center: career advising",
+  "short": "Pomerantz Career Center: career advising",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Undergraduate career exploration and advising, career fairs, treks and HawkShadows job shadows.",
+   "start": null,
+   "where": "Pomerantz Center, 213 N Clinton St, Iowa City"
+  },
+  "tags": [
+   "BBA",
+   "accounting",
+   "arts",
+   "enrolled",
+   "heading_out",
+   "networking",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://careers.uiowa.edu/upcoming-events"
+ },
+ {
+  "id": "evt_0011",
+  "type": "office",
+  "title": "Tippie Graduate Career Services coaching",
+  "short": "Tippie Graduate Career Services coaching",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Career coaching for GPP students and alumni (virtual and in Des Moines/Iowa City).",
+   "start": null,
+   "where": "https://students.tippie.uiowa.edu"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "alumni",
+   "analytics",
+   "certificate",
+   "enrolled",
+   "finance",
+   "further_education",
+   "heading_out",
+   "leadership",
+   "project_management",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://students.tippie.uiowa.edu"
+ },
+ {
+  "id": "evt_0012",
+  "type": "certificate",
+  "title": "Certificate in Entrepreneurial Management (undergraduate)",
+  "short": "Certificate in Entrepreneurial Management (undergraduate)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Open to all UI undergraduates; starts with ENTR:2000 and includes options such as ENTR:4510 Arts Leadership Seminar.",
+   "start": null,
+   "where": "catalog.registrar.uiowa.edu"
+  },
+  "tags": [
+   "BBA",
+   "arts",
+   "enrolled",
+   "entrepreneurship",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/tippie-business/management-entrepreneurship/entrepreneurial-management-certificate/"
+ },
+ {
+  "id": "evt_0013",
+  "type": "certificate",
+  "title": "Certificate in Event Management (undergraduate)",
+  "short": "Certificate in Event Management (undergraduate)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Includes THTR:3510 Introduction to Arts Management among approved courses.",
+   "start": null,
+   "where": "catalog.registrar.uiowa.edu"
+  },
+  "tags": [
+   "BBA",
+   "arts",
+   "enrolled",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/liberal-arts-sciences/event-management/event-management-certificate"
+ },
+ {
+  "id": "evt_0014",
+  "type": "degree_program",
+  "title": "Art minor (School of Art, Art History, and Design)",
+  "short": "Art minor (School of Art, Art History, and Design)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "A minor in Art can pair with a BBA such as Accounting.",
+   "start": null,
+   "where": "admissions.uiowa.edu/academics/undergraduate-areas-of-study"
+  },
+  "tags": [
+   "BBA",
+   "arts",
+   "enrolled",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://admissions.uiowa.edu/academics/undergraduate-areas-of-study"
+ },
+ {
+  "id": "evt_0015",
+  "type": "degree_program",
+  "title": "Accounting, BBA",
+  "short": "Accounting, BBA",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Tippie BBA major in Accounting; ACCT:2100 is the entry course.",
+   "start": null,
+   "where": "catalog.registrar.uiowa.edu"
+  },
+  "tags": [
+   "BBA",
+   "accounting",
+   "enrolled",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/tippie-business/accounting/"
+ },
+ {
+  "id": "evt_0016",
+  "type": "certificate",
+  "title": "Professional Certificate in Innovation (12 s.h., Tippie graduate)",
+  "short": "Professional Certificate in Innovation (12 s.h., Tippie graduate)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Graduate certificate drawing on Management & Entrepreneurship and Iowa JPEC; includes MBA:8320 Strategic Business Growth. A low-commitment way back to Iowa.",
+   "start": null,
+   "where": "catalog.registrar.uiowa.edu"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "alumni",
+   "certificate",
+   "entrepreneurship",
+   "further_education",
+   "heading_out",
+   "leadership",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/tippie-business/master-of-business-administration/innovation-certificate/"
+ },
+ {
+  "id": "evt_0017",
+  "type": "degree_program",
+  "title": "Iowa MBA, part-time (Tippie GPP)",
+  "short": "Iowa MBA, part-time (Tippie GPP)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Part-time MBA for working professionals; core includes MBA:8180, MGMT leadership electives and FIN electives. Certificate-only admission also available.",
+   "start": null,
+   "where": "https://tippie.uiowa.edu/lifelong-learning/certificates/cert-only-admissions/"
+  },
+  "tags": [
+   "MBA",
+   "MSBA",
+   "MSF",
+   "alumni",
+   "certificate",
+   "finance",
+   "further_education",
+   "leadership",
+   "tippie-mba",
+   "tippie-msba",
+   "tippie-msf"
+  ],
+  "url": "https://tippie.uiowa.edu/lifelong-learning/certificates/cert-only-admissions/"
+ },
+ {
+  "id": "evt_0018",
+  "type": "networking",
+  "title": "UI Center for Advancement I-Clubs (alumni networks by city)",
+  "short": "UI Center for Advancement I-Clubs (alumni networks by city)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Local University of Iowa alumni clubs and their events.",
+   "start": null,
+   "where": "https://www.foriowa.org/networks/locations.php"
+  },
+  "tags": [
+   "alumni",
+   "networking"
+  ],
+  "url": "https://www.foriowa.org/networks/locations.php"
+ },
+ {
+  "id": "evt_0019",
+  "type": "office_hours",
+  "title": "Instructor office hours (listed on each ICON course site)",
+  "short": "Instructor office hours (listed on each ICON course site)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "The highest-leverage 15 minutes in most courses. See the course ICON page for times.",
+   "start": null,
+   "where": "ICON course site"
+  },
+  "tags": [
+   "accounting",
+   "analytics",
+   "enrolled",
+   "finance",
+   "undecided"
+  ],
+  "url": "https://students.tippie.uiowa.edu"
+ },
+ {
+  "id": "evt_0020",
+  "type": "resource",
+  "title": "Hawkeye Experience Grant (undergraduate)",
+  "short": "Hawkeye Experience Grant (undergraduate)",
+  "dept": "Events & resources",
+  "official": {
+   "description": "Funding for undergraduates doing applied learning outside the classroom (e.g. unpaid internships). Help sessions at Pomerantz.",
+   "start": null,
+   "where": "https://careers.uiowa.edu/upcoming-events"
+  },
+  "tags": [
+   "BBA",
+   "accounting",
+   "arts",
+   "enrolled",
+   "tippie-bba",
+   "undecided"
+  ],
+  "url": "https://careers.uiowa.edu/upcoming-events"
+ },
+ {
+  "id": "cs_colloquium",
+  "type": "talk series",
+  "title": "Computer Science Colloquium (UIowa CS)",
+  "short": "CS Colloquium",
+  "dept": "Computer Science",
+  "official": {
+   "description": "Department talk series where faculty and visiting researchers present their work. Open to all."
+  },
+  "tags": [
+   "research",
+   "networking",
+   "computer science"
+  ],
+  "url": "https://cs.uiowa.edu"
+ },
+ {
+  "id": "ug_research",
+  "type": "opportunity",
+  "title": "Undergraduate research assistant position (faculty lab)",
+  "short": "Undergrad RA",
+  "dept": "Research",
+  "official": {
+   "description": "Paid or for-credit research positions in faculty labs across campus. Usually found by contacting faculty directly."
+  },
+  "tags": [
+   "research",
+   "lab",
+   "undergraduate"
+  ],
+  "url": null
+ },
+ {
+  "id": "CS:1010",
+  "type": "course",
+  "title": "CS:1010 Computing in Context",
+  "short": "Computing in Context",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Traces computing's history from ancient tools to modern AI and its effect on society.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:1020",
+  "type": "course",
+  "title": "CS:1020 Principles of Computing",
+  "short": "Principles of Computing",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Broad overview of computing and the practical skills needed to apply it in one's field.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:1110",
+  "type": "course",
+  "title": "CS:1110 Introduction to Computer Science",
+  "short": "Introduction to Computer Science",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Surveys algorithms, networking, databases, AI, and security, with hands-on Python for data-intensive majors.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:1210",
+  "type": "course",
+  "title": "CS:1210 Computer Science I: Fundamentals",
+  "short": "Computer Science I: Fundamentals",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Python programming fundamentals, data structures, and object-oriented design for problem solving.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:1500",
+  "type": "course",
+  "title": "CS:1500 Computing, Ethics, and Society",
+  "short": "Computing, Ethics, and Society",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Explores ethics, privacy, intellectual property, and fairness issues in computing and information technology.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2110",
+  "type": "course",
+  "title": "CS:2110 Programming for Informatics",
+  "short": "Programming for Informatics",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Python-based introduction to programming and core computing concepts, including data modeling and basic analysis.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2420",
+  "type": "course",
+  "title": "CS:2420 Analyzing Data for Informatics",
+  "short": "Analyzing Data for Informatics",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Covers data collection, modeling, relational databases, statistics, mining, machine learning, and privacy.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2520",
+  "type": "course",
+  "title": "CS:2520 Human-Computer Interaction for Informatics",
+  "short": "Human-Computer Interaction for Informatics",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Usability and user-centered design principles, evaluation methods, and basic HTML and JavaScript.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2620",
+  "type": "course",
+  "title": "CS:2620 Server-Side Development for Informatics",
+  "short": "Server-Side Development for Informatics",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Builds data-driven web apps using REST, cloud services, server frameworks, and database integration.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2630",
+  "type": "course",
+  "title": "CS:2630 Computer Organization",
+  "short": "Computer Organization",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Covers digital logic through assembly language and how these connect to C program execution.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2800",
+  "type": "course",
+  "title": "CS:2800 Introduction to Coding for Interactive Arts",
+  "short": "Introduction to Coding for Interactive Arts",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Combines art and technology through hands-on experiments with Arduino, programming, and interface design.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:2820",
+  "type": "course",
+  "title": "CS:2820 Introduction to Software Development",
+  "short": "Introduction to Software Development",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Software design, refactoring, abstraction, testing, and a larger project involving reading others' code.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3010",
+  "type": "course",
+  "title": "CS:3010 Software Engineering Fundamentals in Java",
+  "short": "Software Engineering Fundamentals in Java",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Teaches Java fundamentals and object-oriented programming for students already familiar with another language.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3210",
+  "type": "course",
+  "title": "CS:3210 Programming Languages and Tools",
+  "short": "Programming Languages and Tools",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Survey of varied programming languages and development tools.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3330",
+  "type": "course",
+  "title": "CS:3330 Algorithms",
+  "short": "Algorithms",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Algorithm design techniques, graph algorithms, efficiency analysis, and NP-completeness.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3420",
+  "type": "course",
+  "title": "CS:3420 Introduction to Artificial Intelligence",
+  "short": "Introduction to Artificial Intelligence",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Core AI topics including knowledge representation, heuristic search, constraint satisfaction, logic, and machine learning.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3620",
+  "type": "course",
+  "title": "CS:3620 Operating Systems",
+  "short": "Operating Systems",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Covers device control, memory, scheduling, interprocess communication, synchronization, and security in modern OSes.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3640",
+  "type": "course",
+  "title": "CS:3640 Introduction to Networks and Their Applications",
+  "short": "Introduction to Networks and Their Applications",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Network principles, socket programming, routing, TCP/UDP, and application-layer protocols.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3700",
+  "type": "course",
+  "title": "CS:3700 Introduction to Numerical Methods",
+  "short": "Introduction to Numerical Methods",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Numerical methods for root finding, interpolation, integration, linear algebra, and differential equations.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3820",
+  "type": "course",
+  "title": "CS:3820 Programming Language Concepts",
+  "short": "Programming Language Concepts",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Compares imperative, functional, and logic languages, covering syntax, types, recursion, and abstraction.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3910",
+  "type": "course",
+  "title": "CS:3910 Informatics Project",
+  "short": "Informatics Project",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Small teams design, build, and test a system or analyze a dataset as an informatics capstone.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:3990",
+  "type": "course",
+  "title": "CS:3990 Honors in Computer Science or Informatics",
+  "short": "Honors in Computer Science or Informatics",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Individual honors projects for eligible computer science or informatics majors.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4310",
+  "type": "course",
+  "title": "CS:4310 Design and Implementation of Algorithms",
+  "short": "Design and Implementation of Algorithms",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Algorithm design with an implementation focus: data structures, graphs, dynamic programming, randomization, intractability.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4330",
+  "type": "course",
+  "title": "CS:4330 Theory of Computation",
+  "short": "Theory of Computation",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Covers automata, formal grammars, Turing machines, and undecidability.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4350",
+  "type": "course",
+  "title": "CS:4350 Logic in Computer Science",
+  "short": "Logic in Computer Science",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Propositional, predicate, temporal, and modal logics for modeling computation and verifying statements.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4400",
+  "type": "course",
+  "title": "CS:4400 Database Systems",
+  "short": "Database Systems",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "SQL querying, ER design, relational database development, and web apps using PHP or JDBC.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4420",
+  "type": "course",
+  "title": "CS:4420 Advanced Artificial Intelligence",
+  "short": "Advanced Artificial Intelligence",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Automated reasoning, planning, game playing, and machine learning, including deep learning methods.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4440",
+  "type": "course",
+  "title": "CS:4440 Web Mining",
+  "short": "Web Mining",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Web-based methods for information retrieval, document summarization, and social network identification.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4470",
+  "type": "course",
+  "title": "CS:4470 Health Data Analytics",
+  "short": "Health Data Analytics",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Analysis of electronic health records, public health, biomedical, and social media health data through research papers.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4472",
+  "type": "course",
+  "title": "CS:4472 Introduction to Algorithms for Bioinformatics and Biomedicine",
+  "short": "Introduction to Algorithms for Bioinformatics and Biomedicine",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Algorithm design for bioinformatics, drug discovery, and biomedicine.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4500",
+  "type": "course",
+  "title": "CS:4500 Research Methods in Human-Computer Interaction",
+  "short": "Research Methods in Human-Computer Interaction",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Introduces HCI research methods, running experiments, and reviewing recent research.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4510",
+  "type": "course",
+  "title": "CS:4510 Human-Computer Interaction for Computer Science",
+  "short": "Human-Computer Interaction for Computer Science",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "HCI theory and evaluation methods applied through a collaborative software development project.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4550",
+  "type": "course",
+  "title": "CS:4550 Multimedia Systems",
+  "short": "Multimedia Systems",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Technologies and algorithms for handling text, audio, images, and video in computer systems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4630",
+  "type": "course",
+  "title": "CS:4630 Mobile Computing",
+  "short": "Mobile Computing",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Mobile sensing systems covering sensors, wireless communication, middleware, embedded projects, and a research paper.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4640",
+  "type": "course",
+  "title": "CS:4640 Computer Security",
+  "short": "Computer Security",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Authentication, access control, cryptographic protocols, key management, and security assessment.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4660",
+  "type": "course",
+  "title": "CS:4660 Cryptography",
+  "short": "Cryptography",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Symmetric and public-key encryption, hashing, block ciphers, number theory, and digital signatures.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4700",
+  "type": "course",
+  "title": "CS:4700 High Performance and Parallel Computing",
+  "short": "High Performance and Parallel Computing",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Parallel algorithms on multicore processors and GPUs, with scientific and large-scale data applications.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4720",
+  "type": "course",
+  "title": "CS:4720 Optimization Techniques",
+  "short": "Optimization Techniques",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Linear, nonlinear, and dynamic optimization theory, sensitivity analysis, convexity, and calculus of variations.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4740",
+  "type": "course",
+  "title": "CS:4740 Large Data Analysis",
+  "short": "Large Data Analysis",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Big data techniques spanning parallel computing, matrix methods, clustering, visualization, and applications.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "CS:4980",
+  "type": "course",
+  "title": "CS:4980 Topics in Computer Science II",
+  "short": "Topics in Computer Science II",
+  "dept": "Computer Science",
+  "level": "undergraduate",
+  "official": {
+   "description": "Advanced topics complementing other courses, varying by offering, for graduate and advanced undergraduate students.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/cs/"
+ },
+ {
+  "id": "MATH:1005",
+  "type": "course",
+  "title": "MATH:1005 College Algebra",
+  "short": "College Algebra",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Algebraic methods, equations, inequalities, functions, graphs, and exponential and logarithmic models.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:1350",
+  "type": "course",
+  "title": "MATH:1350 Quantitative Reasoning for Business",
+  "short": "Quantitative Reasoning for Business",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Algebra, functional models, and introductory differential calculus with business and economic applications.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:1550",
+  "type": "course",
+  "title": "MATH:1550 Engineering Calculus I",
+  "short": "Engineering Calculus I",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Functions, limits, derivatives, integrals, and the basics of vectors.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:1560",
+  "type": "course",
+  "title": "MATH:1560 Engineering Calculus II",
+  "short": "Engineering Calculus II",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Integration techniques, sequences and series, parametric and polar coordinates, and vector-valued functions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:1850",
+  "type": "course",
+  "title": "MATH:1850 Calculus I",
+  "short": "Calculus I",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Single-variable limits, differentiation, integration, and applications such as graphing and volumes.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:1860",
+  "type": "course",
+  "title": "MATH:1860 Calculus II",
+  "short": "Calculus II",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Integration techniques, improper integrals, differential equations basics, and infinite series with Taylor expansions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:2220",
+  "type": "course",
+  "title": "MATH:2220 Discrete Probability and Linear Algebra",
+  "short": "Discrete Probability and Linear Algebra",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Linear algebra and probability used in computer science, including Markov chains and least squares.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:2550",
+  "type": "course",
+  "title": "MATH:2550 Engineering Matrix Algebra",
+  "short": "Engineering Matrix Algebra",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Matrix and vector operations, eigenvalues, determinants, and diagonalization with computer applications.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:2560",
+  "type": "course",
+  "title": "MATH:2560 Engineering Differential Equations",
+  "short": "Engineering Differential Equations",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Ordinary differential equations, Laplace transforms, and stability of nonlinear systems in the phase plane.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:2700",
+  "type": "course",
+  "title": "MATH:2700 Introduction to Linear Algebra",
+  "short": "Introduction to Linear Algebra",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Vector spaces, linear transformations, matrices, determinants, eigenvalues, and diagonalization.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:2850",
+  "type": "course",
+  "title": "MATH:2850 Calculus III",
+  "short": "Calculus III",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Multivariable calculus, including multiple integrals, vector fields, and the major integral theorems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3550",
+  "type": "course",
+  "title": "MATH:3550 Engineering Vector Calculus",
+  "short": "Engineering Vector Calculus",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Partial derivatives, vector fields, key integral theorems, and classical partial differential equations.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3600",
+  "type": "course",
+  "title": "MATH:3600 Introduction to Ordinary Differential Equations",
+  "short": "Introduction to Ordinary Differential Equations",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "First- and second-order equations, series solutions, systems, and existence and uniqueness theorems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3720",
+  "type": "course",
+  "title": "MATH:3720 Introduction to Abstract Algebra",
+  "short": "Introduction to Abstract Algebra",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Group theory, including permutations, subgroups, quotient groups, and homomorphisms.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3770",
+  "type": "course",
+  "title": "MATH:3770 Foundations of Analysis",
+  "short": "Foundations of Analysis",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "The real number system, limits, convergence, and the theory underlying calculus.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3800",
+  "type": "course",
+  "title": "MATH:3800 Introduction to Numerical Methods",
+  "short": "Introduction to Numerical Methods",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Numerical root finding, interpolation, integration, linear algebra, and differential equation solvers using programming.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3900",
+  "type": "course",
+  "title": "MATH:3900 Introduction to Mathematics Research",
+  "short": "Introduction to Mathematics Research",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Group research on an elementary active research topic under faculty supervision.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:3999",
+  "type": "course",
+  "title": "MATH:3999 Problem Solving for Mathematics Competitions",
+  "short": "Problem Solving for Mathematics Competitions",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Logical reasoning and problem-solving skills for competitions like the Putnam and modeling contests.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4050",
+  "type": "course",
+  "title": "MATH:4050 Introduction to Discrete Mathematics",
+  "short": "Introduction to Discrete Mathematics",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Counting, inclusion-exclusion, recurrence relations, generating functions, and Polya-Burnside applications.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4060",
+  "type": "course",
+  "title": "MATH:4060 Discrete Mathematical Models",
+  "short": "Discrete Mathematical Models",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Graph theory, combinatorics, and graph-based models for scheduling, matching, and optimization.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4080",
+  "type": "course",
+  "title": "MATH:4080 Number Theory and Cryptography",
+  "short": "Number Theory and Cryptography",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Elementary number theory and its role in public key cryptography and digital security.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4090",
+  "type": "course",
+  "title": "MATH:4090 A Rigorous Introduction to Abstract Algebra",
+  "short": "A Rigorous Introduction to Abstract Algebra",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Groups, rings, polynomial rings, vector spaces, and basic field theory.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4200",
+  "type": "course",
+  "title": "MATH:4200 Complex Variables",
+  "short": "Complex Variables",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Analytic functions, the complex plane, Cauchy's theorem, residues, and conformal mapping.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4220",
+  "type": "course",
+  "title": "MATH:4220 Fourier Analysis and Applications",
+  "short": "Fourier Analysis and Applications",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Fourier series and transforms, convergence modes, Parseval's identity, and convolutions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4250",
+  "type": "course",
+  "title": "MATH:4250 Introduction to Financial Mathematics",
+  "short": "Introduction to Financial Mathematics",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Option pricing, portfolio optimization, stochastic integration, and Monte Carlo simulation.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4700",
+  "type": "course",
+  "title": "MATH:4700 Partial Differential Equations and Applications",
+  "short": "Partial Differential Equations and Applications",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Elliptic, parabolic, and hyperbolic PDEs and their applications in science and engineering.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4740",
+  "type": "course",
+  "title": "MATH:4740 Large Data Analysis",
+  "short": "Large Data Analysis",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Big data techniques from computing, mathematics, and statistics, with applications like PageRank and forecasting.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4750",
+  "type": "course",
+  "title": "MATH:4750 Introduction to Mathematical Biology",
+  "short": "Introduction to Mathematical Biology",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Differential equation models across neurobiology, epidemiology, ecology, and related fields.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4820",
+  "type": "course",
+  "title": "MATH:4820 Optimization Techniques",
+  "short": "Optimization Techniques",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Linear and nonlinear programming, convexity, optimal control, dynamic programming, and calculus of variations.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4840",
+  "type": "course",
+  "title": "MATH:4840 Mathematics of Machine Learning",
+  "short": "Mathematics of Machine Learning",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Regression, matrix methods, optimization, neural networks, and game theory behind machine learning.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "MATH:4860",
+  "type": "course",
+  "title": "MATH:4860 High Performance and Parallel Computing",
+  "short": "High Performance and Parallel Computing",
+  "dept": "Mathematics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Parallel algorithm design and implementation on multicore processors and GPUs for scientific and data applications.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/math/"
+ },
+ {
+  "id": "ECE:2400",
+  "type": "course",
+  "title": "ECE:2400 Linear Systems I",
+  "short": "Linear Systems I",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Signals, systems, Fourier analysis, filters, sampling, and stability fundamentals.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:2410",
+  "type": "course",
+  "title": "ECE:2410 Principles of Electronic Instrumentation",
+  "short": "Principles of Electronic Instrumentation",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Analog amplifiers, operational amplifier circuits, and transistor amplifier design, with lab work.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3000",
+  "type": "course",
+  "title": "ECE:3000 Electrical and Computer Engineering Professional Seminar",
+  "short": "Electrical and Computer Engineering Professional Seminar",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Professional engineering practice through guest speakers, field trips, and panel discussions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3320",
+  "type": "course",
+  "title": "ECE:3320 Introduction to Digital Design",
+  "short": "Introduction to Digital Design",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Digital switching circuits, sequential logic, interfacing, and design with integrated circuits.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3330",
+  "type": "course",
+  "title": "ECE:3330 Introduction to Software Design",
+  "short": "Introduction to Software Design",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Software design for engineering systems, including algorithms, data structures, and Java programming.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3350",
+  "type": "course",
+  "title": "ECE:3350 Computer Architecture and Organization",
+  "short": "Computer Architecture and Organization",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Processor design, instruction sets, memory hierarchies, pipelining, and hardware description languages.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3360",
+  "type": "course",
+  "title": "ECE:3360 Embedded Systems",
+  "short": "Embedded Systems",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Microcontroller-based system design, device interfacing, and operating system fundamentals.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3400",
+  "type": "course",
+  "title": "ECE:3400 Linear Systems II",
+  "short": "Linear Systems II",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Digital signal processing, filter design, and Z-transform analysis in MATLAB.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3410",
+  "type": "course",
+  "title": "ECE:3410 Electronic Circuits",
+  "short": "Electronic Circuits",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "FET and BJT amplifier design, feedback, power amplifiers, and SPICE simulation.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3500",
+  "type": "course",
+  "title": "ECE:3500 Communication Systems",
+  "short": "Communication Systems",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Analog and digital modulation, noise analysis, and probability for communication systems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3540",
+  "type": "course",
+  "title": "ECE:3540 Communication Networks",
+  "short": "Communication Networks",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Layered network architectures, protocols, routing, congestion control, and network security.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3600",
+  "type": "course",
+  "title": "ECE:3600 Control Systems",
+  "short": "Control Systems",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Feedback control modeling, stability analysis, root-locus, frequency response, and compensation design.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3700",
+  "type": "course",
+  "title": "ECE:3700 Electromagnetic Theory",
+  "short": "Electromagnetic Theory",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Electric and magnetic fields, Maxwell's equations, wave propagation, and transmission lines.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3720",
+  "type": "course",
+  "title": "ECE:3720 Semiconductor Devices",
+  "short": "Semiconductor Devices",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Semiconductor physics and operation of p-n junction diodes, bipolar transistors, and FETs.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3995",
+  "type": "course",
+  "title": "ECE:3995 Undergraduate Contemporary Topics in Electrical and Computer Engineering",
+  "short": "Undergraduate Contemporary Topics in Electrical and Computer Engineering",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "New ECE topics based on faculty and student interest.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:3998",
+  "type": "course",
+  "title": "ECE:3998 Individual Investigations: Electrical Engineering",
+  "short": "Individual Investigations: Electrical Engineering",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Undergraduate individual projects in lab study, design, simulation, software, or research.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:4720",
+  "type": "course",
+  "title": "ECE:4720 Introductory Optics",
+  "short": "Introductory Optics",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Wave optics, photons, interference, diffraction, polarization, lasers, and nonlinear optics.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:4880",
+  "type": "course",
+  "title": "ECE:4880 Electrical and Computer Engineering Senior Design 1",
+  "short": "Electrical and Computer Engineering Senior Design 1",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Design problems that integrate subject matter from required ECE courses.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:4890",
+  "type": "course",
+  "title": "ECE:4890 Electrical and Computer Engineering Senior Design 2",
+  "short": "Electrical and Computer Engineering Senior Design 2",
+  "dept": "Electrical and Computer Engineering",
+  "level": "undergraduate",
+  "official": {
+   "description": "Individual or team design project, with demonstration and a formal engineering report.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "FIN:1500",
+  "type": "course",
+  "title": "FIN:1500 Introduction to Investment Banking",
+  "short": "Introduction to Investment Banking",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Nontechnical overview of investment banking to gauge interest in the Hawkinson Institute program.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3000",
+  "type": "course",
+  "title": "FIN:3000 Introductory Financial Management",
+  "short": "Introductory Financial Management",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Valuation, capital budgeting, cost of capital, and financial statement analysis.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3020",
+  "type": "course",
+  "title": "FIN:3020 Professional Finance Seminar",
+  "short": "Professional Finance Seminar",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Finance careers, current events, internships, designations, and ethics.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3100",
+  "type": "course",
+  "title": "FIN:3100 Financial Information Technology",
+  "short": "Financial Information Technology",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Student teams apply common financial software and data systems to practical problems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3200",
+  "type": "course",
+  "title": "FIN:3200 Investment Management",
+  "short": "Investment Management",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Investing in domestic and international securities, risk versus return, and building portfolios.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3300",
+  "type": "course",
+  "title": "FIN:3300 Corporate Finance",
+  "short": "Corporate Finance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Capital structure, dividends, mergers, and convertible or callable debt.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3400",
+  "type": "course",
+  "title": "FIN:3400 Principles of Risk Management and Insurance",
+  "short": "Principles of Risk Management and Insurance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Identifying and evaluating risk and using insurance to manage it.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3500",
+  "type": "course",
+  "title": "FIN:3500 Hawkinson Scholar Seminar",
+  "short": "Hawkinson Scholar Seminar",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Resumes, interviews, and case work for investment banking and consulting careers.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3510",
+  "type": "course",
+  "title": "FIN:3510 Hawkinson Scholar Seminar: Topics in Finance",
+  "short": "Hawkinson Scholar Seminar: Topics in Finance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Financial services subsectors and valuation methods used in real transactions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:3900",
+  "type": "course",
+  "title": "FIN:3900 Advanced Entrepreneurial Finance",
+  "short": "Advanced Entrepreneurial Finance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Startup valuation, deal structuring, exit options, and sources of capital.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4020",
+  "type": "course",
+  "title": "FIN:4020 Topics in Finance",
+  "short": "Topics in Finance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Contemporary issues in the finance field.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4030",
+  "type": "course",
+  "title": "FIN:4030 Securities Industry Essentials Exam Prep",
+  "short": "Securities Industry Essentials Exam Prep",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Preparation for the SIE exam, including a voucher to take it.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4040",
+  "type": "course",
+  "title": "FIN:4040 Bloomberg Market Concepts (BMC) and ESG Certificates",
+  "short": "Bloomberg Market Concepts (BMC) and ESG Certificates",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Bloomberg certificates covering market fundamentals and ESG investing.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4045",
+  "type": "course",
+  "title": "FIN:4045 Wall Street Prep: Financial and Valuation Modeling Seminar",
+  "short": "Wall Street Prep: Financial and Valuation Modeling Seminar",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Advanced modeling skills used in banking, private equity, and equity research.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4055",
+  "type": "course",
+  "title": "FIN:4055 Wall Street Prep: M&A and Leveraged Buyout Modeling Seminar",
+  "short": "Wall Street Prep: M&A and Leveraged Buyout Modeling Seminar",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Three-statement and DCF models for M&A and buyout analysis.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4210",
+  "type": "course",
+  "title": "FIN:4210 Futures and Options",
+  "short": "Futures and Options",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Options, futures, and other derivatives for hedging and speculation, including pricing relationships.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4220",
+  "type": "course",
+  "title": "FIN:4220 Fixed Income Securities",
+  "short": "Fixed Income Securities",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Fixed income theory, yield curves, bond valuation, and portfolio strategies.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4225",
+  "type": "course",
+  "title": "FIN:4225 Applied Fixed Income Analysis - Hart Fund",
+  "short": "Applied Fixed Income Analysis - Hart Fund",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Managing a fixed income fund, making recommendations, and monitoring performance.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4230",
+  "type": "course",
+  "title": "FIN:4230 Real Estate Process",
+  "short": "Real Estate Process",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Real estate market analysis, mortgages, valuation, and portfolio management.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4240",
+  "type": "course",
+  "title": "FIN:4240 International Finance",
+  "short": "International Finance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Exchange rates, currency derivatives, and international corporate and investment decisions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4250",
+  "type": "course",
+  "title": "FIN:4250 Applied Equity Valuation",
+  "short": "Applied Equity Valuation",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Equity valuation and portfolio construction while managing the Krause Fund.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4255",
+  "type": "course",
+  "title": "FIN:4255 Henry Fund",
+  "short": "Henry Fund",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Managing the Henry Fund's long-only equity portfolio as an investment committee.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4310",
+  "type": "course",
+  "title": "FIN:4310 Advanced Corporate Finance",
+  "short": "Advanced Corporate Finance",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "M&A, IPOs, and an introduction to venture capital and buyouts.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4320",
+  "type": "course",
+  "title": "FIN:4320 Commercial Banking",
+  "short": "Commercial Banking",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Managing commercial banks: liquidity, credit policy, capital risk, and interest rate hedging.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4330",
+  "type": "course",
+  "title": "FIN:4330 Investment Banking",
+  "short": "Investment Banking",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Investment banks' market roles, client advisory work, and the conflicts and risks involved.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4340",
+  "type": "course",
+  "title": "FIN:4340 Wealth Management",
+  "short": "Wealth Management",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Diversified client portfolios, asset allocation, behavioral biases, and retirement planning.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4350",
+  "type": "course",
+  "title": "FIN:4350 Applied Wealth Management",
+  "short": "Applied Wealth Management",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Financial plans for real clients or fund pools.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4410",
+  "type": "course",
+  "title": "FIN:4410 Enterprise Risk Management",
+  "short": "Enterprise Risk Management",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Identifying and managing business risks, and how insurance reduces the cost of risk.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4450",
+  "type": "course",
+  "title": "FIN:4450 Risk Modeling",
+  "short": "Risk Modeling",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Quantitative risk analysis using probability, mathematical finance, and actuarial methods.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "FIN:4470",
+  "type": "course",
+  "title": "FIN:4470 Insurtech Innovation",
+  "short": "Insurtech Innovation",
+  "dept": "Finance",
+  "level": "undergraduate",
+  "official": {
+   "description": "Insurance technology innovation, from successful and failed real-world examples.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/fin/"
+ },
+ {
+  "id": "BAIS:1500",
+  "type": "course",
+  "title": "BAIS:1500 Business Technology and Artificial Intelligence",
+  "short": "Business Technology and Artificial Intelligence",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "AI basics plus hands-on Microsoft Office and Power BI skills for beginning analytics.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:2800",
+  "type": "course",
+  "title": "BAIS:2800 Foundations of Business Analytics",
+  "short": "Foundations of Business Analytics",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Data-driven business decisions using visualization, statistics, and introductory Excel analytics.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:2900",
+  "type": "course",
+  "title": "BAIS:2900 Artificial Intelligence in Business",
+  "short": "Artificial Intelligence in Business",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Nontechnical overview of integrating AI into businesses: ethics, risks, and real cases.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3000",
+  "type": "course",
+  "title": "BAIS:3000 Operations Management",
+  "short": "Operations Management",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Managing production and service operations: design, quality, planning, and scheduling.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3005",
+  "type": "course",
+  "title": "BAIS:3005 Information Systems",
+  "short": "Information Systems",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Computing and data analysis for business problems using databases, Python, and visualization.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3020",
+  "type": "course",
+  "title": "BAIS:3020 Computational Thinking",
+  "short": "Computational Thinking",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Algorithmic problem-solving in Python using data structures to manipulate business data.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3025",
+  "type": "course",
+  "title": "BAIS:3025 Business Process Automation",
+  "short": "Business Process Automation",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Process mining and robotic process automation to map, measure, and improve workflows.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3050",
+  "type": "course",
+  "title": "BAIS:3050 Business Analytics and Information Systems Professional Preparation",
+  "short": "Business Analytics and Information Systems Professional Preparation",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Career paths in analytics and information systems and how to prepare for them.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3100",
+  "type": "course",
+  "title": "BAIS:3100 Accounting Systems and Analytics",
+  "short": "Accounting Systems and Analytics",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Accounting systems, internal controls, IS auditing, and transaction processing using Python and databases.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3140",
+  "type": "course",
+  "title": "BAIS:3140 Information Visualization",
+  "short": "Information Visualization",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Effective data graphics design using statistics and human perception principles.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3150",
+  "type": "course",
+  "title": "BAIS:3150 Emerging Technology Driving Business Innovation",
+  "short": "Emerging Technology Driving Business Innovation",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Emerging technologies like blockchain and AI, with business use cases.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3200",
+  "type": "course",
+  "title": "BAIS:3200 Database Management",
+  "short": "Database Management",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Relational database design, data modeling, and hands-on SQL.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3250",
+  "type": "course",
+  "title": "BAIS:3250 Data Wrangling",
+  "short": "Data Wrangling",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Python to collect, clean, and analyze data for descriptive and visual business insights.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3300",
+  "type": "course",
+  "title": "BAIS:3300 Digital Product Management",
+  "short": "Digital Product Management",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Agile project management for digital products, experiencing each team role.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3400",
+  "type": "course",
+  "title": "BAIS:3400 Cloud Computing",
+  "short": "Cloud Computing",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Cloud platforms like AWS and Azure with hands-on configuration of business solutions.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3500",
+  "type": "course",
+  "title": "BAIS:3500 Data Mining",
+  "short": "Data Mining",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Predictive analytics: classification, regression, and clustering for business problems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3600",
+  "type": "course",
+  "title": "BAIS:3600 Data Engineering",
+  "short": "Data Engineering",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Business metrics, data pipelines, data warehousing, and dashboards.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:3800",
+  "type": "course",
+  "title": "BAIS:3800 Optimization and Simulation Modeling",
+  "short": "Optimization and Simulation Modeling",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Optimization and Monte Carlo simulation models to guide decisions and quantify risk.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:4150",
+  "type": "course",
+  "title": "BAIS:4150 Business Analytics and Information Systems Capstone",
+  "short": "Business Analytics and Information Systems Capstone",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "A real professional analytics project for a client, with presentation and report.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:4220",
+  "type": "course",
+  "title": "BAIS:4220 Advanced Database Management and Big Data",
+  "short": "Advanced Database Management and Big Data",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "SQL, PL/SQL, semi-structured data, and big data tools like Hadoop.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:4280",
+  "type": "course",
+  "title": "BAIS:4280 Cybersecurity",
+  "short": "Cybersecurity",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Practical cybersecurity mindset from employee, CEO, user, and hacker perspectives.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "BAIS:4540",
+  "type": "course",
+  "title": "BAIS:4540 Statistical Learning",
+  "short": "Statistical Learning",
+  "dept": "Business Analytics",
+  "level": "undergraduate",
+  "official": {
+   "description": "Supervised and unsupervised learning: regression, trees, and clustering using software.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [],
+  "url": "https://catalog.registrar.uiowa.edu/courses/bais/"
+ },
+ {
+  "id": "ECE:5200",
+  "type": "course",
+  "title": "ECE:5200 Machine Learning",
+  "short": "Machine Learning",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Core theory and methods for regression, classification, neural networks, and clustering, applied to engineering.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:5215",
+  "type": "course",
+  "title": "ECE:5215 Applied Machine Learning",
+  "short": "Applied Machine Learning",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Hands-on deep learning in PyTorch: convolutional networks, optimization, classifiers, and autoencoders.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:5230",
+  "type": "course",
+  "title": "ECE:5230 Generative AI Tools: ChatGPT and Beyond",
+  "short": "Generative AI Tools: ChatGPT and Beyond",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Project-based generative AI for text, images, video, and audio, with ethical and societal analysis.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:5240",
+  "type": "course",
+  "title": "ECE:5240 Deep Learning Theory",
+  "short": "Deep Learning Theory",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Theoretical foundations of deep learning generalization, limitations, adversarial vulnerability, and open research problems.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:5250",
+  "type": "course",
+  "title": "ECE:5250 Large Language Models",
+  "short": "Large Language Models",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Language models, Transformers, and deep learning for translation, classification, and tagging in NLP.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:5290",
+  "type": "course",
+  "title": "ECE:5290 Artificial Intelligence: Experiential Learning",
+  "short": "Artificial Intelligence: Experiential Learning",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Hands-on AI/ML pipelines on real-world data, with interdisciplinary projects in medicine, art, and education.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ },
+ {
+  "id": "ECE:5330",
+  "type": "course",
+  "title": "ECE:5330 Graph Algorithms and Combinatorial Optimization",
+  "short": "Graph Algorithms and Combinatorial Optimization",
+  "dept": "Electrical and Computer Engineering",
+  "level": "graduate (undergrads by permission)",
+  "official": {
+   "description": "Graph theory, combinatorial optimization algorithms, NP-completeness, and approximation methods.",
+   "terms": [],
+   "prereqs": "See catalog",
+   "source": "UIowa General Catalog"
+  },
+  "tags": [
+   "ai",
+   "machine learning"
+  ],
+  "url": "https://catalog.registrar.uiowa.edu/courses/ece"
+ }
+]
